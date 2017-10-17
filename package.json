@@ -1,0 +1,24 @@
+{
+  "name": "new_homesite_wasteland",
+  "version": "1.0.0",
+  "description": "personal site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Flandy85/new_homesite_wasteland.git"
+  },
+  "author": "Anders Gustavss",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Flandy85/new_homesite_wasteland/issues"
+  },
+  "homepage": "https://github.com/Flandy85/new_homesite_wasteland#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
+    "sass": "^1.0.0-beta.2"
+  }
+}

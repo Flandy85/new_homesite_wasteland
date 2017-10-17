@@ -2,6 +2,7 @@
 
 var gulp = require('gulp');
 var sass = require('gulp-sass');
+var concat = require('gulp-concat');
 var browserSync = require('browser-sync').create();
 
 
@@ -23,3 +24,16 @@ gulp.task('browserSync', function() {
     },
   })
 })
+
+gulp.task('scripts', function() {
+  return gulp.src('./src/js/**/*.js')
+    .pipe(concat('bundle.js'))
+    .pipe(gulp.dest('./dist/js'));
+});
+
+gulp.task('watch', ['browserSync', 'sass', 'scripts'], function (){
+  gulp.watch('./src/scss/style.scss', ['sass']); 
+  gulp.watch('src/js/**/*.js', ['scripts']);
+  gulp.watch('gulp1/*.html', browserSync.reload);
+  // Other watchers
+});

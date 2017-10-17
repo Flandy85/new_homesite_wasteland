@@ -18,6 +18,7 @@
   "homepage": "https://github.com/Flandy85/new_homesite_wasteland#readme",
   "devDependencies": {
     "browser-sync": "^2.18.13",
+    "concat": "^1.0.3",
     "gulp": "^3.9.1",
     "sass": "^1.0.0-beta.2"
   }

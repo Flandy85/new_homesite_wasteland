@@ -9,21 +9,20 @@ var browserSync = require('browser-sync').create();
 
 gulp.task('sass', function(){
   return gulp.src('./src/scss/style.scss')
-    .pipe(cleanCSS({compatibility: 'ie8'}))
     .pipe(sass()) // Using gulp-sass
-    .pipe(browserSync.reload({
-      stream: true
-    }))
+    // .pipe(browserSync.reload({
+    //   stream: true
+    // }))
     .pipe(gulp.dest('./dist/css'))
 });
 
-gulp.task('browserSync', function() {
-  browserSync.init({
-    server: {
-      baseDir: './'
-    },
-  })
-})
+// gulp.task('browserSync', function() {
+//   browserSync.init({
+//     server: {
+//       baseDir: './'
+//     },
+//   })
+// })
 
 gulp.task('scripts', function() {
   return gulp.src('./src/js/**/*.js')
@@ -31,9 +30,9 @@ gulp.task('scripts', function() {
     .pipe(gulp.dest('./dist/js'));
 });
 
-gulp.task('watch', ['browserSync', 'sass', 'scripts'], function (){
+gulp.task('watch', ['sass', 'scripts'], function (){
   gulp.watch('./src/scss/style.scss', ['sass']); 
   gulp.watch('src/js/**/*.js', ['scripts']);
-  gulp.watch('gulp1/*.html', browserSync.reload);
+  // gulp.watch('gulp1/*.html', browserSync.reload);
   // Other watchers
 });

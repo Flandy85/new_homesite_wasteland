@@ -3,3 +3,12 @@
 @import "normalize";
 @import "header";
 @import "main";
+
+
+/*Media quires for desktop and tablet. No mobile css since its mobile first*/
+@media screen and (min-width: 768px) and (max-width: 1024px){
+	@import "tablets";
+}
+@media screen and (min-width: 1025px) and (max-width: 1500px){
+	@import "desktop";
+}

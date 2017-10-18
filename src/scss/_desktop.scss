@@ -1,0 +1,83 @@
+/*************************
+		HEADER
+*************************/
+.header-container {
+	display: flex;
+	justify-content: center;
+	height: 5vh;
+	width: 100%;
+	
+}
+.menu-container {
+
+}
+
+.menu > a {
+	font-size: 18px;
+}
+/*Show fullscale menu*/
+.menu {
+	display: block;
+}
+/* Hidding mobile menu in tablet size*/
+.slide-menu-open {
+	display: none;
+}
+/**************************
+		SECTIONS
+**************************/
+.section-start {
+	height: 100vh;
+
+	h1 {
+		font-size: 50px;
+	}
+
+}
+.section-about {
+	background-color: rgba(50, 50, 50, 0.8);
+	margin-top: 150px;
+	height: 85vh;
+	width: 75%;
+
+	h2 {
+		font-size: 30px;
+	}
+	p {
+		font-size: 23px;
+		/*word-break: normal;*/
+		line-height: 28px;
+		margin-right: 65px;
+		margin-left: 65px;
+	}
+	img {
+		height: 40vh;
+		width: 50vw;
+	}
+}
+
+.section-contact {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	margin-top: 150px;
+	height: 50vh;
+	width: 75%;
+
+	h2 {
+		font-size: 30px;
+	}
+
+	.contact-paragraph1 {
+		margin-right: 45px;
+		margin-left: 45px;
+	}
+	.contact-paragraph2 {
+		margin-right: 180px;
+	}
+	.contact-container {
+		width: 50%;
+	}
+}

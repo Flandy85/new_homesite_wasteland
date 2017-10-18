@@ -2,7 +2,12 @@
 		HEADER
 *************************/
 .header-container {
+	/*background-image: url("../assets/images/rust.jpeg");*/
 	background-color: rgba(0, 0, 0, 0.6);
+	
+}
+.menu-container  > h3 {
+	color: #DCDCDC;
 }
 .menu, .menu > a {
 	color: #DCDCDC;

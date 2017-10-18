@@ -1,0 +1,43 @@
+/*************************
+		HEADER
+*************************/
+.header-container {
+	display: flex;
+	justify-content: center;
+	height: 5vh;
+	width: 100%;
+	
+}
+
+.menu > a {
+	font-size: 18px;
+}
+/*Show fullscale menu*/
+.menu {
+	display: block;
+}
+/* Hidding mobile menu in tablet size*/
+.slide-menu-open {
+	display: none;
+}
+/**************************
+		SECTIONS
+**************************/
+.section-start {
+
+	h1 {
+		font-size: 40px;
+	}
+}
+
+.section-about {
+	margin-top: 60px;
+	height: 80vh;
+	width: 85%;
+}
+
+.section-contact {
+	margin-top: 60px;
+	height: 50vh;
+	width: 85%;
+}

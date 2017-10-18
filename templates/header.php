@@ -14,10 +14,24 @@
 <body>
 <header class="header-container">
 	<nav class="menu-container">
-		<h1>WASTELANDSOLUTION</h1>
+		<h3>WASTELANDSOLUTION</h3>
 		<div class="menu" id="menu-start"><a href="#Start">Start</a></div>
 		<div class="menu"><a href="#About" >About</a></div>
 		<div class="menu"><a href="#Contact">Contact</a></div>
 		<div class="menu"><a href="#">Projects</a></div>
+		<div id="mainMenu" class="mobile-menu"></div>
+
+		<a href="#" class="slide-menu-open">Menu</a>
+
+		<div class="side-menu-overlay" style="width: 0px; opacity: 0;"></div>
+		<div class="side-menu-wrapper">
+		<a href="#" class="menu-close">&times;</a>
+			<ul>
+			    <li><a href="#Start" rel="nofollow">Start</a></li>
+			    <li><a href="#About"  rel="nofollow">About</a></li>
+			    <li><a href="#Contact" rel="nofollow">Contact</a></li>
+			    <li><a href="#Projects" rel="nofollow">Projects</a></li>
+			</ul>
+		</div>
 	</nav>
 </header>

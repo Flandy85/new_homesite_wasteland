@@ -2,11 +2,77 @@ body {
   padding: 0;
   margin: 0; }
 
+.side-menu-wrapper {
+  /* style menu wrapper */
+  overflow: hidden;
+  background: rgba(0, 0, 0, 0.95);
+  padding: 40px 0 0 40px;
+  position: fixed;
+  /* Fixed position */
+  top: 0;
+  right: -290px;
+  /* Sidebar initial position. "right" for right positioned menu */
+  height: 100%;
+  z-index: 2;
+  transition: 0.5s;
+  /* CSS transition speed */
+  text-decoration: none;
+  width: 250px;
+  font: 20px "Courier New", Courier, monospace; }
+
+.side-menu-wrapper > ul {
+  /* css ul list style */
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  overflow-y: auto;
+  /* enable scroll for menu items */
+  width: 500px;
+  /* this width will hide scroll bar */
+  height: 95%; }
+
+.side-menu-wrapper > ul > li > a {
+  /* links */
+  display: block;
+  border-bottom: 1px solid #131313;
+  padding: 6px 4px 6px 4px;
+  color: #989898;
+  transition: 0.3s;
+  text-decoration: none; }
+
+.side-menu-wrapper > a.menu-close {
+  /* close button */
+  padding: 8px 0 4px 23px;
+  color: #6B6B6B;
+  display: block;
+  margin: -30px 0 -10px -20px;
+  font-size: 35px;
+  text-decoration: none; }
+
+.side-menu-overlay {
+  /* overlay */
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  overflow-y: auto;
+  overflow-x: hidden;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 1s; }
+
 /************************
 		HEADER
 *************************/
 .header-container {
+  /*background-image: url("../assets/images/rust.jpeg");*/
   background-color: rgba(0, 0, 0, 0.6); }
+
+.menu-container > h3 {
+  color: #DCDCDC; }
 
 .menu, .menu > a {
   color: #DCDCDC; }
@@ -434,10 +500,25 @@ template {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
+  align-items: center;
   width: 100%; }
+  .menu-container h3 {
+    font-family: 'Bowlby One SC', cursive;
+    font-size: 18px;
+    margin: 0;
+    padding: 0; }
 
 .menu {
+  display: none;
   margin-top: 10px; }
+
+.slide-menu-open {
+  font-family: 'Bowlby One SC', cursive;
+  font-size: 16px;
+  color: #B75D0E;
+  margin: 0;
+  padding: 0;
+  text-decoration: none; }
 
 .menu > a {
   font-family: 'Bowlby One SC', cursive;
@@ -530,3 +611,94 @@ template {
   .section-contact .contact-item > a {
     font-size: 22px;
     text-decoration: none; }
+
+/*Media quires for desktop and tablet. No mobile css since its mobile first*/
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  /*************************
+		HEADER
+*************************/
+  .header-container {
+    display: flex;
+    justify-content: center;
+    height: 5vh;
+    width: 100%; }
+  .menu > a {
+    font-size: 18px; }
+  /*Show fullscale menu*/
+  .menu {
+    display: block; }
+  /* Hidding mobile menu in tablet size*/
+  .slide-menu-open {
+    display: none; }
+  /**************************
+		SECTIONS
+**************************/
+  .section-start h1 {
+    font-size: 40px; }
+  .section-about {
+    margin-top: 60px;
+    height: 80vh;
+    width: 85%; }
+  .section-contact {
+    margin-top: 60px;
+    height: 50vh;
+    width: 85%; } }
+
+@media screen and (min-width: 1025px) and (max-width: 1500px) {
+  /*************************
+		HEADER
+*************************/
+  .header-container {
+    display: flex;
+    justify-content: center;
+    height: 5vh;
+    width: 100%; }
+  .menu > a {
+    font-size: 18px; }
+  /*Show fullscale menu*/
+  .menu {
+    display: block; }
+  /* Hidding mobile menu in tablet size*/
+  .slide-menu-open {
+    display: none; }
+  /**************************
+		SECTIONS
+**************************/
+  .section-start {
+    height: 100vh; }
+    .section-start h1 {
+      font-size: 50px; }
+  .section-about {
+    background-color: rgba(50, 50, 50, 0.8);
+    margin-top: 150px;
+    height: 85vh;
+    width: 75%; }
+    .section-about h2 {
+      font-size: 30px; }
+    .section-about p {
+      font-size: 23px;
+      /*word-break: normal;*/
+      line-height: 28px;
+      margin-right: 65px;
+      margin-left: 65px; }
+    .section-about img {
+      height: 40vh;
+      width: 50vw; }
+  .section-contact {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    height: 50vh;
+    width: 75%; }
+    .section-contact h2 {
+      font-size: 30px; }
+    .section-contact .contact-paragraph1 {
+      margin-right: 45px;
+      margin-left: 45px; }
+    .section-contact .contact-paragraph2 {
+      margin-right: 180px; }
+    .section-contact .contact-container {
+      width: 50%; } }

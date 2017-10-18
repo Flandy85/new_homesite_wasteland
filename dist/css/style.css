@@ -2,8 +2,32 @@ body {
   padding: 0;
   margin: 0; }
 
-h1 {
-  color: blue; }
+/************************
+		HEADER
+*************************/
+.header-container {
+  background-color: rgba(0, 0, 0, 0.6); }
+
+.menu, .menu > a {
+  color: #DCDCDC; }
+
+/************************
+		MAIN
+************************/
+.section-start h1 {
+  color: #DCDCDC; }
+
+.section-about {
+  background-color: rgba(50, 50, 50, 0.5); }
+  .section-about h2, .section-about p {
+    color: #fff; }
+
+.section-contact {
+  background-color: rgba(50, 50, 50, 0.5); }
+  .section-contact h2, .section-contact p {
+    color: #fff; }
+  .section-contact .contact-item > a {
+    color: #fff; }
 
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
 /* Document
@@ -396,12 +420,42 @@ template {
 [hidden] {
   display: none; }
 
+.header-container {
+  display: flex;
+  justify-content: center;
+  height: 6vh;
+  overflow: hidden;
+  top: 0;
+  position: fixed;
+  width: 100%; }
+
+.menu-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%; }
+
+.menu {
+  margin-top: 10px; }
+
+.menu > a {
+  font-family: 'Bowlby One SC', cursive;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  text-decoration: none; }
+
 /*First 2 section in body*/
+.section-main {
+  height: 100%; }
+
 .section-start {
   background-image: url("http://img09.deviantart.net/67dd/i/2014/189/9/a/passion_wasteland_by_bunsl-d7psb3k.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
@@ -410,3 +464,69 @@ template {
     font-size: 22px;
     font-family: 'Bowlby One SC', cursive;
     text-shadow: 4px 4px 5px #000; }
+
+.background-section {
+  background-image: url("http://orig13.deviantart.net/4c10/f/2008/264/9/1/wasteland_01_by_everlite.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%; }
+
+.section-about {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  width: 100%;
+  height: 100vh; }
+  .section-about h2 {
+    margin: 0;
+    padding: 0; }
+  .section-about p {
+    font-size: 20px;
+    line-height: 25px;
+    margin-right: 15px;
+    margin-left: 15px;
+    text-shadow: 4px 4px 5px #000; }
+  .section-about img {
+    height: 40vh;
+    width: 80vw; }
+
+.section-contact {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  height: 60vh; }
+  .section-contact h2 {
+    margin: 0;
+    padding: 0; }
+  .section-contact p {
+    font-size: 20px;
+    line-height: 25px;
+    margin-right: 15px;
+    margin-left: 15px;
+    text-shadow: 4px 4px 5px #000; }
+  .section-contact ul {
+    margin-right: 15px;
+    margin-left: 15px;
+    padding: 0;
+    list-style: none; }
+  .section-contact .contact-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    width: 100%; }
+  .section-contact .contact-item > a {
+    font-size: 22px;
+    text-decoration: none; }

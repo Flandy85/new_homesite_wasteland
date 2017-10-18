@@ -1,0 +1,36 @@
+/************************
+		HEADER
+*************************/
+.header-container {
+	background-color: rgba(0, 0, 0, 0.6);
+}
+.menu, .menu > a {
+	color: #DCDCDC;
+}
+/************************
+		MAIN
+************************/
+.section-start {
+
+	h1 {
+		color: #DCDCDC;
+	}
+}
+.section-about {
+	background-color: rgba(50, 50, 50, 0.5);
+
+	h2, p {
+		color: #fff;
+	}
+}
+.section-contact {
+	background-color: rgba(50, 50, 50, 0.5);
+
+	h2, p {
+		color: #fff;
+	}
+	.contact-item > a {
+		color: #fff;
+	}
+	
+}

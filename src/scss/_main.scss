@@ -1,0 +1,18 @@
+/*First 2 section in body*/
+.section-start {
+	background-image: url("http://img09.deviantart.net/67dd/i/2014/189/9/a/passion_wasteland_by_bunsl-d7psb3k.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	height: 60vh;
+
+	h1 {
+		font-size: 22px;
+		font-family: 'Bowlby One SC', cursive;
+		text-shadow: 4px 4px 5px #000;
+	}
+}

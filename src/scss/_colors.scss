@@ -22,13 +22,20 @@
 	}
 }
 .section-about {
-	background-color: rgba(50, 50, 50, 0.5);
+	/*background-color: rgba(50, 50, 50, 0.5);*/
 
 	h2, p {
 		color: #fff;
 	}
 }
+.section-about-top-border {
+	background-color: #000000;
+	h2 {
+		color: #fff;
+	}
+}
 .section-contact {
+	
 	background-color: rgba(50, 50, 50, 0.5);
 
 	h2, p {

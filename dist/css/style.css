@@ -86,8 +86,13 @@ body, html {
   color: #DCDCDC; }
 
 .section-about {
-  background-color: rgba(50, 50, 50, 0.5); }
+  /*background-color: rgba(50, 50, 50, 0.5);*/ }
   .section-about h2, .section-about p {
+    color: #fff; }
+
+.section-about-top-border {
+  background-color: #000000; }
+  .section-about-top-border h2 {
     color: #fff; }
 
 .section-contact {
@@ -568,9 +573,9 @@ template {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  margin-top: 30px;
+  margin: 30px 0 0 0;
   width: 100%;
-  height: 100vh; }
+  height: 100%; }
   .section-about h2 {
     margin: 0;
     padding: 0; }
@@ -581,10 +586,51 @@ template {
     margin-left: 15px;
     text-shadow: 4px 4px 5px #000; }
   .section-about img {
-    height: 40vh;
-    width: 80vw; }
+    width: 100%;
+    max-width: 400px;
+    margin: 0 0 30px 0; }
 
-.section-contact {
+.section-about-top-border {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 80px; }
+  .section-about-top-border h2 {
+    font-family: 'Bowlby One SC', cursive; }
+
+.section-about-text {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%; }
+
+.contact-section-background {
+  background-image: url("http://cdn.themis-media.com/media/global/images/library/deriv/984/984155.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%; }
+
+.section-contact h2 {
+  margin: 0;
+  padding: 0; }
+
+.section-contact p {
+  font-size: 20px;
+  line-height: 25px;
+  margin-right: 15px;
+  margin-left: 15px;
+  text-shadow: 4px 4px 5px #000; }
+
+.section-contact ul {
+  margin-right: 15px;
+  margin-left: 15px;
+  padding: 0;
+  list-style: none; }
+
+.section-contact .contact-info-container {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -592,29 +638,17 @@ template {
   align-items: center;
   margin-top: 30px;
   height: 60vh; }
-  .section-contact h2 {
-    margin: 0;
-    padding: 0; }
-  .section-contact p {
-    font-size: 20px;
-    line-height: 25px;
-    margin-right: 15px;
-    margin-left: 15px;
-    text-shadow: 4px 4px 5px #000; }
-  .section-contact ul {
-    margin-right: 15px;
-    margin-left: 15px;
-    padding: 0;
-    list-style: none; }
-  .section-contact .contact-container {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    width: 100%; }
-  .section-contact .contact-item > a {
-    font-size: 22px;
-    text-decoration: none; }
+
+.section-contact .contact-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  width: 100%; }
+
+.section-contact .contact-item > a {
+  font-size: 22px;
+  text-decoration: none; }
 
 /*Media quires for desktop and tablet. No mobile css since its mobile first*/
 @media screen and (min-width: 768px) and (max-width: 1024px) {
@@ -637,10 +671,11 @@ template {
 **************************/
   .section-start h1 {
     font-size: 40px; }
-  .section-about {
-    margin-top: 60px;
-    height: 80vh;
-    width: 85%; }
+  /*.section-about {
+	margin-top: 60px;
+	height: 80vh;
+	width: 85%;
+}*/
   .section-contact {
     margin-top: 60px;
     height: 50vh;
@@ -676,22 +711,27 @@ template {
     height: 100vh; }
     .section-start h1 {
       font-size: 50px; }
-  .section-about {
-    background-color: rgba(50, 50, 50, 0.8);
-    margin-top: 150px;
-    height: 85vh;
-    width: 75%; }
-    .section-about h2 {
-      font-size: 30px; }
-    .section-about p {
-      font-size: 23px;
-      /*word-break: normal;*/
-      line-height: 28px;
-      margin-right: 65px;
-      margin-left: 65px; }
-    .section-about img {
-      height: 40vh;
-      width: 50vw; }
+  /*.section-about {
+	background-color: rgba(50, 50, 50, 0.8);
+	margin-top: 150px;
+	height: 85vh;
+	width: 75%;
+
+	h2 {
+		font-size: 30px;
+	}
+	p {
+		font-size: 23px;*/
+  /*word-break: normal;*/
+  /*	line-height: 28px;
+		margin-right: 65px;
+		margin-left: 65px;
+	}
+	img {
+		height: 40vh;
+		width: 50vw;
+	}*/
+  /*}*/
   .section-contact {
     display: flex;
     flex-direction: column;

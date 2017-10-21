@@ -1,4 +1,6 @@
+"use strict";
 
+//Mobile meny
 var slidebar_width  = 290; //slidebar width + padding size
 var slide_bar       = $(".side-menu-wrapper"); //slidebar
 var slide_open_btn  = $(".slide-menu-open"); //slidebar close btn
@@ -14,5 +16,10 @@ slide_close_btn.click(function(e){
     e.preventDefault();
     slide_bar.css({"right": "-"+ slidebar_width + "px"});
     overlay.css({"opacity":"0", "width":"0"});
-});    
-   
+});
+
+
+// Shrinking header when scrolling   
+$(window).on("scroll touchmove", function () {
+    $('#header-container').toggleClass('tiny', $(document).scrollTop() > 0);
+});

@@ -1,8 +1,9 @@
-body {
+body, html {
+    height: 100%;
 	padding: 0;
 	margin: 0;
 }
-
+/*Css classes for shifting to mobile menu*/
 .side-menu-wrapper { /* style menu wrapper */
     overflow: hidden;
     background: rgba(0,0,0,.95);

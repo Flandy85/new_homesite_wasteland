@@ -12,7 +12,7 @@
 	<link rel="stylesheet" type="text/css" href="./dist/css/style.css">
 </head>
 <body>
-<header class="header-container">
+<header class="header-container" id="header-container">
 	<nav class="menu-container">
 		<h3>WASTELANDSOLUTION</h3>
 		<div class="menu" id="menu-start"><a href="#Start">Start</a></div>
@@ -22,15 +22,15 @@
 		<div id="mainMenu" class="mobile-menu"></div>
 
 		<a href="#" class="slide-menu-open">Menu</a>
-
+		<!--Mobile meny-->
 		<div class="side-menu-overlay" style="width: 0px; opacity: 0;"></div>
 		<div class="side-menu-wrapper">
 		<a href="#" class="menu-close">&times;</a>
 			<ul>
-			    <li><a href="#Start" rel="nofollow">Start</a></li>
-			    <li><a href="#About"  rel="nofollow">About</a></li>
-			    <li><a href="#Contact" rel="nofollow">Contact</a></li>
-			    <li><a href="#Projects" rel="nofollow">Projects</a></li>
+			    <li><a href="#Start" rel="nofollow" class="start">Start</a></li>
+			    <li><a href="#About"  rel="nofollow" class="About">About</a></li>
+			    <li><a href="#Contact" rel="nofollow" class="Contact">Contact</a></li>
+			    <li><a href="#Projects" rel="nofollow" class="Projects">Projects</a></li>
 			</ul>
 		</div>
 	</nav>

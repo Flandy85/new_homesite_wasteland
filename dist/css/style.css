@@ -1,7 +1,9 @@
-body {
+body, html {
+  height: 100%;
   padding: 0;
   margin: 0; }
 
+/*Css classes for shifting to mobile menu*/
 .side-menu-wrapper {
   /* style menu wrapper */
   overflow: hidden;
@@ -489,7 +491,7 @@ template {
 .header-container {
   display: flex;
   justify-content: center;
-  height: 6vh;
+  padding: 20px 0;
   overflow: hidden;
   top: 0;
   position: fixed;
@@ -618,9 +620,7 @@ template {
 		HEADER
 *************************/
   .header-container {
-    display: flex;
-    justify-content: center;
-    height: 5vh;
+    padding: 20px 0;
     width: 100%; }
   .menu > a {
     font-size: 18px; }
@@ -649,10 +649,17 @@ template {
 		HEADER
 *************************/
   .header-container {
-    display: flex;
-    justify-content: center;
-    height: 5vh;
-    width: 100%; }
+    padding: 40px 0;
+    /*height: 6vh;*/
+    width: 100%;
+    transition: height 500ms, background 500ms; }
+  /*Minimzing header*/
+  .header-container.tiny {
+    -webkit-transition: padding 1s;
+    /* For Safari 3.1 to 6.0 */
+    transition: padding 1s;
+    padding: 10px 0;
+    background-color: rgba(0, 0, 0, 0.9); }
   .menu > a {
     font-size: 18px; }
   /*Show fullscale menu*/

@@ -15,9 +15,9 @@
 <header class="header-container" id="header-container">
 	<nav class="menu-container">
 		<h3>WASTELANDSOLUTION</h3>
-		<div class="menu" id="menu-start"><a href="#Start">Start</a></div>
-		<div class="menu"><a href="#About" >About</a></div>
-		<div class="menu"><a href="#Contact">Contact</a></div>
+		<div class="menu" id="menu-start"><a href="#Start" id="menu-start">Start</a></div>
+		<div class="menu"><a href="#About" id="menu-about">About</a></div>
+		<div class="menu"><a href="#Contact" id="menu-contact">Contact</a></div>
 		<div class="menu"><a href="#">Projects</a></div>
 		<div id="mainMenu" class="mobile-menu"></div>
 

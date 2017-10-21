@@ -18,8 +18,32 @@ slide_close_btn.click(function(e){
     overlay.css({"opacity":"0", "width":"0"});
 });
 
+$(document).ready(function(){
+	// Shrinking header when scrolling   
+	$(window).on("scroll touchmove", function () {
+	    $('#header-container').toggleClass('tiny', $(document).scrollTop() > 0);
+	});
+	/********************************************/
+	// Click event for scrolling speed
+	$("#menu-start").on("click", function () {
+	 	$('html, body').animate({
+		    scrollTop: $("#Start").offset().top
+		}, 1000);
+	});
 
-// Shrinking header when scrolling   
-$(window).on("scroll touchmove", function () {
-    $('#header-container').toggleClass('tiny', $(document).scrollTop() > 0);
+	$("#menu-about").on("click", function () {
+	 	$('html, body').animate({
+		    scrollTop: $("#About").offset().top
+		}, 1000);
+	});
+
+	$("#menu-contact").on("click", function () {
+	 	$('html, body').animate({
+		    scrollTop: $("#Contact").offset().top
+		}, 1000);
+	});	
+	/********************************************/
+	
 });
+
+

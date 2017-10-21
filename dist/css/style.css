@@ -531,7 +531,9 @@ template {
 
 /*First 2 section in body*/
 .section-main {
-  height: 100%; }
+  height: 100%;
+  overflow-y: scroll;
+  scroll-behavior: smooth; }
 
 .section-start {
   background-image: url("http://img09.deviantart.net/67dd/i/2014/189/9/a/passion_wasteland_by_bunsl-d7psb3k.jpg");
@@ -651,8 +653,7 @@ template {
   .header-container {
     padding: 40px 0;
     /*height: 6vh;*/
-    width: 100%;
-    transition: height 500ms, background 500ms; }
+    width: 100%; }
   /*Minimzing header*/
   .header-container.tiny {
     -webkit-transition: padding 1s;

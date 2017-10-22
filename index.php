@@ -46,6 +46,40 @@
 			<div class="section-projects">
 				<div class="section-projects-text">
 					<p>Hi, I’m Anders Gustavsson. This is my portfolio where i share all of my projects. When im not designing web pages in my free time, im studying for Front End Developer. Outside of school and work i like to, playing video games, work out at the gym, hanging out with my friends, eat good food. I also like to make a trip atleast once a year. My first year in school is now complete and have now started my intership as a Front End Developer.</p>
+					<section>
+				        <ul id="gallery">
+				          <li>
+				            <a href="">
+				              <img src="img/inl_2.jpg" alt="">
+				              <p>Building basic database system with PHP programming in school. Alien universe inspired.</p>
+				            </a>
+				          </li>
+				          <li>
+				            <a href="">
+				              <img src="img/inl_3.jpg" alt="">
+				              <p>Another project in school with php code buildning a todo-list.</p>
+				            </a>
+				          </li>
+				          <li>
+				            <a href="">
+				              <img src="img/numbers-06.jpg" alt="">
+				              <p>T</p>
+				            </a>
+				          </li>
+				          <li>
+				            <a href="">
+				              <img src="" alt="">
+				              <p></p>
+				            </a>
+				          </li>
+				          <li>
+				            <a href="">
+				              <img src="img/numbers-12.jpg" alt="">
+				              <p></p>
+				            </a>
+				          </li>
+				        </ul>
+				    </section>
 				</div>
 			</div>	
 		</div>

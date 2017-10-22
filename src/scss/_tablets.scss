@@ -2,10 +2,17 @@
 		HEADER
 *************************/
 .header-container {
+	background-color: rgba(0, 0, 0, 0.6);
 	padding: 20px 0;
 	width: 100%;
 	
 }
+.header-logo {
+	box-shadow: -4px 5px 40px 0px rgba(0,0,0,0.75);
+	width: 100%;
+	max-width: 300px;
+}
+
 
 .menu > a {
 	font-size: 18px;
@@ -27,7 +34,10 @@
 		font-size: 40px;
 	}
 }
-
+.main-logo {
+	width: 100%;
+	max-width: 600px;
+}
 /*.section-about {
 	margin-top: 60px;
 	height: 80vh;

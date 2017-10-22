@@ -15,7 +15,7 @@
 
 					<p>So far in school I have completed classes in HTML & CSS, PHP programming, MySQL, graffic designer tool: Photoshop and JavaScript.</p>
 
-					<p>Right now im doing my first intership at a financial company called Relenda AB as a <a href="https://angular.io/guide/quickstart">Angular developer.</a> So far our team has developt a beta plattform which contains services such as to be able to sell your own and finance others eDI-invoices.</p>
+					<p>Right now im doing my first intership at a financial company called Relenda AB as a <a href="https://angular.io/guide/quickstart" class="angular-link">Angular</a> developer. So far our team has developt a beta plattform which contains services such as to be able to sell your own and finance others eDI-invoices.</p>
 
 					<p>Other assignments i have been tasked with are for example: design and create the companys new logo for the new plattform and also designed a product sheet for plattforms services with Photoshop.</p>
 				</div>
@@ -38,6 +38,14 @@
 							</ul>
 						</div>
 					</div>
+				</div>
+			</div>
+			<div class="section-about-top-border" id="Projects">
+				<h2>Projects</h2>
+			</div>
+			<div class="section-projects">
+				<div class="section-projects-text">
+					<p>Hi, I’m Anders Gustavsson. This is my portfolio where i share all of my projects. When im not designing web pages in my free time, im studying for Front End Developer. Outside of school and work i like to, playing video games, work out at the gym, hanging out with my friends, eat good food. I also like to make a trip atleast once a year. My first year in school is now complete and have now started my intership as a Front End Developer.</p>
 				</div>
 			</div>	
 		</div>

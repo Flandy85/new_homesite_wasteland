@@ -24,7 +24,7 @@ $(document).ready(function(){
 	    $('#header-container').toggleClass('tiny', $(document).scrollTop() > 0);
 	});
 	/********************************************/
-	// Click event for scrolling speed
+	// Click event for scrolling speed each section
 	$("#menu-start").on("click", function () {
 	 	$('html, body').animate({
 		    scrollTop: $("#Start").offset().top
@@ -40,6 +40,11 @@ $(document).ready(function(){
 	$("#menu-contact").on("click", function () {
 	 	$('html, body').animate({
 		    scrollTop: $("#Contact").offset().top
+		}, 1000);
+	});
+	$("#menu-projects").on("click", function () {
+	 	$('html, body').animate({
+		    scrollTop: $("#Projects").offset().top
 		}, 1000);
 	});	
 	/********************************************/

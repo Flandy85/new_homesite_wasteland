@@ -7,7 +7,7 @@
 		</div>
 		<div class="background-section">
 			<div class="section-about-top-border" id="About">
-				<h2>About</h2>
+				<img src="./assets/images/rust-about.png">
 			</div>
 			<div class="section-about">
 				<div class="section-about-text">
@@ -19,18 +19,18 @@
 
 					<p>Other assignments i have been tasked with are for example: design and create the companys new logo for the new plattform and also designed a product sheet for plattforms services with Photoshop.</p>
 				</div>
-				<img src="https://scontent-arn2-1.xx.fbcdn.net/v/t1.0-1/p160x160/12295319_10153062929801503_2639753087132379632_n.jpg?oh=100d6b2be784b62b9a56ac45b59cf65a&oe=59FCDA6C">
+				<img src="./assets/images/profile-pic.jpg">
 				
 			</div>
 			<div class="section-about-top-border" id="Contact">
-				<h2>Contact information</h2>
+				<img src="./assets/images/rust-contact.png">
 			</div>
 			<div class="contact-section-background">
 				<div class="section-contact">
 					<div class="contact-info-container">
-						<p class="contact-paragraph1">I am looking for work after i have finished my studies.<br> But if you wish to contact me for a private project let me know. </p>
+						<p class="contact-paragraph1">I am looking for work after i have finished my studies. So if you wish to contact me about a job offer or a private project let me know. </p>
 
-						<p class="contact-paragraph2">You can reach me either by phone or email.<br> You can also use the contact form.</p>
+						<p class="contact-paragraph2">You can reach me either by phone or email.</p>
 						<div class="contact-container">
 							<ul class="contact-list">
 								<li class="contact-item"><a href="tel:0768505328">Tel: 0768505328</a></li>
@@ -45,42 +45,42 @@
 			</div>
 			<div class="section-projects">
 				<div class="section-projects-text">
-					<p>Hi, I’m Anders Gustavsson. This is my portfolio where i share all of my projects. When im not designing web pages in my free time, im studying for Front End Developer. Outside of school and work i like to, playing video games, work out at the gym, hanging out with my friends, eat good food. I also like to make a trip atleast once a year. My first year in school is now complete and have now started my intership as a Front End Developer.</p>
-					<section>
-				        <ul id="gallery">
-				          <li>
-				            <a href="">
-				              <img src="img/inl_2.jpg" alt="">
-				              <p>Building basic database system with PHP programming in school. Alien universe inspired.</p>
-				            </a>
-				          </li>
-				          <li>
-				            <a href="">
-				              <img src="img/inl_3.jpg" alt="">
-				              <p>Another project in school with php code buildning a todo-list.</p>
-				            </a>
-				          </li>
-				          <li>
-				            <a href="">
-				              <img src="img/numbers-06.jpg" alt="">
-				              <p>T</p>
-				            </a>
-				          </li>
-				          <li>
-				            <a href="">
-				              <img src="" alt="">
-				              <p></p>
-				            </a>
-				          </li>
-				          <li>
-				            <a href="">
-				              <img src="img/numbers-12.jpg" alt="">
-				              <p></p>
-				            </a>
-				          </li>
-				        </ul>
-				    </section>
+					<p>This is my portfolio where i share all of my projects. </p>
 				</div>
+				<section class="section-gallery">
+			        <ul id="gallery">
+			          <li>
+			            <a href="">
+			              <img src="img/inl_2.jpg" alt="" class="projects-images">
+			              <p></p>
+			            </a>
+			          </li>
+			          <li>
+			            <a href="">
+			              <img src="img/inl_3.jpg" alt="" class="projects-images">
+			              <p></p>
+			            </a>
+			          </li>
+			          <li>
+			            <a href="">
+			              <img src="./assets/images/inl_2.jpg" alt="image of website. Website name: Weyland Yutani" class="projects-images">
+			              <p>Schoolproject. One of my first websites. Developed basic database system with PHP programming in school. Alien universe inspired.</p>
+			            </a>
+			          </li>
+			          <li>
+			            <a href="">
+			              <img src="./assets/images/inl_3.jpg" alt="Website of a to do list." class="projects-images">
+			              <p>Schoolproject. Developed a ToDo list with php programming</p>
+			            </a>
+			          </li>
+			          <li>
+			            <a href="">
+			              <img src="img/numbers-12.jpg" alt="" class="projects-images">
+			              <p></p>
+			            </a>
+			          </li>
+			        </ul>
+			    </section>
 			</div>	
 		</div>
 	</div>

@@ -36,6 +36,50 @@
 .menu {
 	display: block;
 }
+.menu-start > a {
+	display: block;
+	font-family: 'Bowlby One SC', cursive;
+	font-size: 16px;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+.menu-about > a {
+	display: block;
+	font-family: 'Bowlby One SC', cursive;
+	font-size: 16px;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+.menu-contact > a {
+	display: block;
+	font-family: 'Bowlby One SC', cursive;
+	font-size: 16px;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+.menu-projects > a {
+	display: block;
+	font-family: 'Bowlby One SC', cursive;
+	font-size: 16px;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+.menu-start > a:hover { 
+	color: #fad087;
+}
+.menu-about > a:hover {
+	color: #e08f46;
+}
+.menu-contact > a:hover {
+	color: #f5aa69;
+}
+.menu-projects > a:hover {
+	color: #b2682b;
+}
 
 /* Hidding mobile menu in tablet size*/
 .slide-menu-open {
@@ -57,7 +101,7 @@
 	max-width: 700px;
 }
 .section-about-text {
-	
+
 	width: 60%;
 
 	

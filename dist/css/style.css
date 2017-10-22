@@ -76,7 +76,7 @@ body, html {
 .menu-container > h3 {
   color: #DCDCDC; }
 
-.menu, .menu > a {
+.menu-start > a, .menu-about > a, .menu-contact > a, .menu-projects > a {
   color: #DCDCDC; }
 
 /************************
@@ -529,13 +529,21 @@ template {
   padding: 0;
   text-decoration: none; }
 
-.menu > a {
-  font-family: 'Bowlby One SC', cursive;
-  font-size: 16px;
-  margin: 0;
-  padding: 0;
-  text-decoration: none; }
+.menu-start > a {
+  display: none; }
 
+.menu-about > a {
+  display: none; }
+
+.menu-contact > a {
+  display: none; }
+
+.menu-projects > a {
+  display: none; }
+
+/*************************************************
+			MAIN SCSS is mobile first
+*************************************************/
 /*First 2 section in body*/
 .section-main {
   height: 100%;
@@ -587,13 +595,17 @@ template {
     max-width: 400px;
     margin: 0 0 30px 0; }
 
+/*************************************************
+			ABOUT SECTION
+*************************************************/
 .section-about-top-border {
   display: flex;
   justify-content: center;
   width: 100%;
   height: 80px; }
-  .section-about-top-border h2 {
-    font-family: 'Bowlby One SC', cursive; }
+  .section-about-top-border img {
+    width: 100%;
+    max-width: 250px; }
 
 .section-about-text {
   display: flex;
@@ -613,6 +625,9 @@ template {
     font-size: bold;
     text-decoration: none; }
 
+/*************************************************
+			CONTACT SECTION
+*************************************************/
 .contact-section-background {
   background-image: url("http://cdn.themis-media.com/media/global/images/library/deriv/984/984155.jpg");
   background-size: cover;
@@ -622,43 +637,72 @@ template {
   width: 100%;
   height: 100%; }
 
-.section-contact h2 {
-  margin: 0;
-  padding: 0; }
+.section-contact {
+  margin: 60px 0 60px 0; }
+  .section-contact p {
+    font-size: 20px;
+    padding: 5px;
+    line-height: 25px;
+    margin: 0 15px 30 15px;
+    /*text-shadow: 4px 4px 5px #000;*/ }
+  .section-contact ul {
+    margin: 0;
+    padding: 0;
+    list-style: none; }
+  .section-contact .contact-info-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 60vh; }
+  .section-contact .contact-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%; }
+  .section-contact .contact-item > a {
+    font-size: 22px;
+    text-decoration: none; }
 
-.section-contact p {
-  font-size: 20px;
-  padding: 5px;
-  line-height: 25px;
-  margin-right: 15px;
-  margin-left: 15px;
-  /*text-shadow: 4px 4px 5px #000;*/ }
-
-.section-contact ul {
-  margin-right: 15px;
-  margin-left: 15px;
-  padding: 0;
-  list-style: none; }
-
-.section-contact .contact-info-container {
+/*************************************************
+			PROJECTS SECTION
+*************************************************/
+.section-projects {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  margin-top: 30px;
-  height: 60vh; }
+  margin: 30px 0 0 0;
+  width: 100%;
+  height: 100%; }
 
-.section-contact .contact-container {
+.section-projects-text {
+  background-color: rgba(50, 50, 50, 0.5); }
+  .section-projects-text p {
+    color: #fff;
+    font-size: 20px;
+    padding: 10px;
+    line-height: 30px;
+    margin: 5px; }
+
+.section-gallery {
   display: flex;
-  flex-direction: column;
   flex-wrap: wrap;
-  align-items: flex-start;
+  justify-content: center;
   width: 100%; }
+  .section-gallery ul {
+    margin: 0;
+    padding: 0; }
+  .section-gallery p {
+    width: 100%;
+    max-width: 450px; }
 
-.section-contact .contact-item > a {
-  font-size: 22px;
-  text-decoration: none; }
+.projects-images {
+  width: 100%;
+  max-width: 450px; }
 
 /*Media quires for desktop and tablet. No mobile css since its mobile first*/
 @media screen and (min-width: 768px) and (max-width: 1024px) {
@@ -678,6 +722,42 @@ template {
   /*Show fullscale menu*/
   .menu {
     display: block; }
+  .menu-start > a {
+    display: block;
+    font-family: 'Bowlby One SC', cursive;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    text-decoration: none; }
+  .menu-about > a {
+    display: block;
+    font-family: 'Bowlby One SC', cursive;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    text-decoration: none; }
+  .menu-contact > a {
+    display: block;
+    font-family: 'Bowlby One SC', cursive;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    text-decoration: none; }
+  .menu-projects > a {
+    display: block;
+    font-family: 'Bowlby One SC', cursive;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    text-decoration: none; }
+  .menu-start > a:hover {
+    color: #fad087; }
+  .menu-about > a:hover {
+    color: #e08f46; }
+  .menu-contact > a:hover {
+    color: #f5aa69; }
+  .menu-projects > a:hover {
+    color: #b2682b; }
   /* Hidding mobile menu in tablet size*/
   .slide-menu-open {
     display: none; }
@@ -724,6 +804,42 @@ template {
   /*Show fullscale menu*/
   .menu {
     display: block; }
+  .menu-start > a {
+    display: block;
+    font-family: 'Bowlby One SC', cursive;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    text-decoration: none; }
+  .menu-about > a {
+    display: block;
+    font-family: 'Bowlby One SC', cursive;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    text-decoration: none; }
+  .menu-contact > a {
+    display: block;
+    font-family: 'Bowlby One SC', cursive;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    text-decoration: none; }
+  .menu-projects > a {
+    display: block;
+    font-family: 'Bowlby One SC', cursive;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    text-decoration: none; }
+  .menu-start > a:hover {
+    color: #fad087; }
+  .menu-about > a:hover {
+    color: #e08f46; }
+  .menu-contact > a:hover {
+    color: #f5aa69; }
+  .menu-projects > a:hover {
+    color: #b2682b; }
   /* Hidding mobile menu in tablet size*/
   .slide-menu-open {
     display: none; }

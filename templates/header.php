@@ -28,10 +28,10 @@
 		<div class="side-menu-wrapper">
 		<a href="#" class="menu-close">&times;</a>
 			<ul>
-			    <li><a href="#Start" rel="nofollow" class="start">Start</a></li>
-			    <li><a href="#About"  rel="nofollow" class="About">About</a></li>
-			    <li><a href="#Contact" rel="nofollow" class="Contact">Contact</a></li>
-			    <li><a href="#Projects" rel="nofollow" class="Projects">Projects</a></li>
+			    <li><a href="#Start" rel="nofollow" class="start" id="menu-start">Start</a></li>
+			    <li><a href="#About"  rel="nofollow" class="About" id="menu-about">About</a></li>
+			    <li><a href="#Contact" rel="nofollow" class="Contact" id="menu-contact">Contact</a></li>
+			    <li><a href="#Projects" rel="nofollow" class="Projects" id="menu-projects">Projects</a></li>
 			</ul>
 		</div>
 	</nav>

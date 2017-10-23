@@ -30,7 +30,8 @@
 }
 
 .menu > a {
-	font-size: 18px;
+	font-size: 35px;
+	
 }
 /*Show fullscale menu*/
 .menu {
@@ -38,47 +39,58 @@
 }
 .menu-start > a {
 	display: block;
-	font-family: 'Bowlby One SC', cursive;
-	font-size: 16px;
+	font-family: 'Roboto: 500', sans-serif;
+	font-size: 25px;
 	margin: 0;
 	padding: 0;
 	text-decoration: none;
+	transition: font-size 0.5s;
 }
 .menu-about > a {
 	display: block;
-	font-family: 'Bowlby One SC', cursive;
-	font-size: 16px;
+	font-family: 'Roboto: 500', sans-serif;
+	font-size: 25px;
 	margin: 0;
 	padding: 0;
 	text-decoration: none;
+	transition: font-size 0.5s;
 }
 .menu-contact > a {
 	display: block;
-	font-family: 'Bowlby One SC', cursive;
-	font-size: 16px;
+	font-family: 'Roboto: 500', sans-serif;
+	font-size: 25px;
 	margin: 0;
 	padding: 0;
 	text-decoration: none;
+	transition: font-size 0.5s;
 }
 .menu-projects > a {
 	display: block;
-	font-family: 'Bowlby One SC', cursive;
-	font-size: 16px;
+	font-family: 'Roboto: 500', sans-serif;
+	font-size: 25px;
 	margin: 0;
 	padding: 0;
 	text-decoration: none;
+	transition: font-size 0.5s;
 }
 .menu-start > a:hover { 
 	color: #fad087;
+	font-size: 28px;
 }
 .menu-about > a:hover {
 	color: #e08f46;
+	font-size: 28px;
+	
 }
 .menu-contact > a:hover {
 	color: #f5aa69;
+	font-size: 28px;
+	
 }
 .menu-projects > a:hover {
 	color: #b2682b;
+	font-size: 28px;
+	
 }
 
 /* Hidding mobile menu in tablet size*/
@@ -98,7 +110,7 @@
 }
 .main-logo {
 	width: 100%;
-	max-width: 700px;
+	max-width: 900px;
 }
 .section-about-text {
 
@@ -115,8 +127,8 @@
 	justify-content: center;
 	align-items: center;
 	margin-top: 80px;
-	height: 50vh;
-	width: 75%;
+	height: 100%;
+	width: 50%;
 
 	h2 {
 		font-size: 30px;
@@ -132,4 +144,7 @@
 	.contact-container {
 		width: 50%;
 	}
+}
+#gallery {
+	width: 90%;
 }

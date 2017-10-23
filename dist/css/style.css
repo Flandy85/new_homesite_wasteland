@@ -89,7 +89,7 @@ body, html {
   /*background-color: rgba(50, 50, 50, 0.5);*/ }
   .section-about h2, .section-about p {
     background-color: rgba(0, 0, 0, 0.7);
-    color: #fff; }
+    color: #DCDCDC; }
 
 .section-about-top-border {
   background-color: #000000; }
@@ -99,9 +99,12 @@ body, html {
 .section-contact {
   background-color: rgba(50, 50, 50, 0.5); }
   .section-contact h2, .section-contact p {
-    color: #fff; }
+    color: #DCDCDC; }
   .section-contact .contact-item > a {
     color: #fff; }
+
+.section-projects-text {
+  color: #DCDCDC; }
 
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
 /* Document
@@ -522,7 +525,7 @@ template {
   margin-top: 10px; }
 
 .slide-menu-open {
-  font-family: 'Bowlby One SC', cursive;
+  font-family: 'Roboto', sans-serif;
   font-size: 20px;
   color: #B75D0E;
   margin: 0;
@@ -559,10 +562,10 @@ template {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  height: 60vh; }
+  height: 100%; }
   .section-start h1 {
     font-size: 22px;
-    font-family: 'Bowlby One SC', cursive;
+    font-family: 'Roboto', sans-serif;
     text-shadow: 4px 4px 5px #000; }
 
 .background-section {
@@ -590,6 +593,8 @@ template {
   margin: 30px 0 0 0;
   width: 100%;
   height: 100%; }
+  .section-about p {
+    font-family: 'Roboto', sans-serif; }
   .section-about img {
     width: 100%;
     max-width: 400px;
@@ -615,11 +620,12 @@ template {
   .section-about-text p {
     font-size: 20px;
     padding: 10px;
-    line-height: 30px;
+    line-height: 35px;
     margin: 5px;
     /*margin-right: 15px;
 		margin-left: 15px;*/
-    /*text-shadow: 1px 1px 0px rgba(150, 150, 150, 1);*/ }
+    /*text-shadow: 1px 1px 0px rgba(150, 150, 150, 1);*/
+    text-shadow: black 0.1em 0.1em 0.2em; }
   .section-about-text .angular-link {
     color: red;
     font-size: bold;
@@ -640,11 +646,13 @@ template {
 .section-contact {
   margin: 60px 0 60px 0; }
   .section-contact p {
+    font-family: 'Roboto', sans-serif;
     font-size: 20px;
     padding: 5px;
     line-height: 25px;
-    margin: 0 15px 30 15px;
-    /*text-shadow: 4px 4px 5px #000;*/ }
+    margin: 0 15px 30px 15px;
+    /*text-shadow: 4px 4px 5px #000;*/
+    text-shadow: black 0.1em 0.1em 0.2em; }
   .section-contact ul {
     margin: 0;
     padding: 0;
@@ -655,7 +663,7 @@ template {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    height: 60vh; }
+    height: 100%; }
   .section-contact .contact-container {
     display: flex;
     flex-direction: column;
@@ -682,7 +690,7 @@ template {
 .section-projects-text {
   background-color: rgba(50, 50, 50, 0.5); }
   .section-projects-text p {
-    color: #fff;
+    font-family: 'Roboto', sans-serif;
     font-size: 20px;
     padding: 10px;
     line-height: 30px;
@@ -693,12 +701,21 @@ template {
   flex-wrap: wrap;
   justify-content: center;
   width: 100%; }
-  .section-gallery ul {
+  .section-gallery ul li {
     margin: 0;
-    padding: 0; }
+    padding: 0;
+    list-style: none; }
   .section-gallery p {
     width: 100%;
     max-width: 450px; }
+
+#gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 5px;
+  padding: 5px;
+  width: 100%; }
 
 .projects-images {
   width: 100%;
@@ -800,46 +817,54 @@ template {
     padding: 10px 0;
     background-color: rgba(0, 0, 0, 0.9); }
   .menu > a {
-    font-size: 18px; }
+    font-size: 35px; }
   /*Show fullscale menu*/
   .menu {
     display: block; }
   .menu-start > a {
     display: block;
-    font-family: 'Bowlby One SC', cursive;
-    font-size: 16px;
+    font-family: 'Roboto: 500', sans-serif;
+    font-size: 25px;
     margin: 0;
     padding: 0;
-    text-decoration: none; }
+    text-decoration: none;
+    transition: font-size 0.5s; }
   .menu-about > a {
     display: block;
-    font-family: 'Bowlby One SC', cursive;
-    font-size: 16px;
+    font-family: 'Roboto: 500', sans-serif;
+    font-size: 25px;
     margin: 0;
     padding: 0;
-    text-decoration: none; }
+    text-decoration: none;
+    transition: font-size 0.5s; }
   .menu-contact > a {
     display: block;
-    font-family: 'Bowlby One SC', cursive;
-    font-size: 16px;
+    font-family: 'Roboto: 500', sans-serif;
+    font-size: 25px;
     margin: 0;
     padding: 0;
-    text-decoration: none; }
+    text-decoration: none;
+    transition: font-size 0.5s; }
   .menu-projects > a {
     display: block;
-    font-family: 'Bowlby One SC', cursive;
-    font-size: 16px;
+    font-family: 'Roboto: 500', sans-serif;
+    font-size: 25px;
     margin: 0;
     padding: 0;
-    text-decoration: none; }
+    text-decoration: none;
+    transition: font-size 0.5s; }
   .menu-start > a:hover {
-    color: #fad087; }
+    color: #fad087;
+    font-size: 28px; }
   .menu-about > a:hover {
-    color: #e08f46; }
+    color: #e08f46;
+    font-size: 28px; }
   .menu-contact > a:hover {
-    color: #f5aa69; }
+    color: #f5aa69;
+    font-size: 28px; }
   .menu-projects > a:hover {
-    color: #b2682b; }
+    color: #b2682b;
+    font-size: 28px; }
   /* Hidding mobile menu in tablet size*/
   .slide-menu-open {
     display: none; }
@@ -852,7 +877,7 @@ template {
       font-size: 50px; }
   .main-logo {
     width: 100%;
-    max-width: 700px; }
+    max-width: 900px; }
   .section-about-text {
     width: 60%; }
   .section-contact {
@@ -862,8 +887,8 @@ template {
     justify-content: center;
     align-items: center;
     margin-top: 80px;
-    height: 50vh;
-    width: 75%; }
+    height: 100%;
+    width: 50%; }
     .section-contact h2 {
       font-size: 30px; }
     .section-contact .contact-paragraph1 {
@@ -872,4 +897,6 @@ template {
     .section-contact .contact-paragraph2 {
       margin-right: 180px; }
     .section-contact .contact-container {
-      width: 50%; } }
+      width: 50%; }
+  #gallery {
+    width: 90%; } }

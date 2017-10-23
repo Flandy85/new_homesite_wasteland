@@ -705,7 +705,12 @@ template {
     margin: 0;
     padding: 0;
     list-style: none; }
+  .section-gallery a {
+    text-decoration: none; }
   .section-gallery p {
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
     width: 100%;
     max-width: 450px; }
 

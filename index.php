@@ -51,8 +51,8 @@
 				<section class="section-gallery">
 			        <ul id="gallery">
 			          <li>
-			            <a href="https://wastelandsolution.se/Inl_1/">
-			              <img src="./assets/images/munk1.png" alt="" class="projects-images">
+			            <a href="https://wastelandsolution.se/Inl_1/" target="_blank">
+			              <img src="./assets/images/munk1.png" alt="Image of donuts. Schoolproject of a donuts site." class="projects-images">
 			              <p>My first html and css website i devolopted in school. Not much to look at but it is more for showing progress</p>
 			            </a>
 			          </li>
@@ -70,31 +70,31 @@
 			          </li>
 			          <li>
 			            <a href="https://wastelandsolution.se/javascript/svg/">
-			              <img src="./assets/images/firewall-shield.png" alt="" class="projects-images">
+			              <img src="./assets/images/firewall-shield.png" alt="Image of a shield representing a infographic" class="projects-images">
 			              <p>A infographic for promoting SSL cerificate made with greensock js and Javascript</p>
 			            </a>
 			          </li>
 			          <li>
-			            <a href="https://wastelandsolution.se/javascript/quizz/">
-			              <img src="./assets/images/quizz.png" alt="" class="projects-images">
+			            <a href="https://wastelandsolution.se/javascript/quizz/" target="_blank>
+			              <img src="./assets/images/quizz.png" alt="Image of quizz site. Big alien" class="projects-images">
 			              <p>My first JavaScript quizz.</p>
 			            </a>
 			          </li>
 			          <li>
-			            <a href="https://www.rvft.se/">
-			              <img src="./assets/images/rvft.png" alt="" class="projects-images">
+			            <a href="https://www.rvft.se/" target="_blank">
+			              <img src="./assets/images/rvft.png" alt="Image of a company startingpage. Company RVFT." class="projects-images">
 			              <p>My first live project for a company were i devolopted their site with wordpress and custom made wordpresstheme.</p>
 			            </a>
 			          </li>
 			          <li>
-			            <a href="https://wastelandsolution.se/javascript/weatherapp/">
-			              <img src="./assets/images/weatherapp.png" alt="" class="projects-images">
+			            <a href="https://wastelandsolution.se/javascript/weatherapp/" target="_blank>
+			              <img src="./assets/images/weatherapp.png" alt="Image of a weatherapp browser site" class="projects-images">
 			              <p>Schoolproject in a group of three developted our own weahterapp for browser. Using javascript and three diffrent api:s that are fetching weather data, geoloction and images.</p>
 			            </a>
 			          </li>
 			          <li>
-			            <a href="">
-			              <img src="./assets/images/bulldad.png" alt="" class="projects-images">
+			            <a href="https://wastelandsolution.se/bulldad/index.php" target="_blank>
+			              <img src="./assets/images/bulldad.png" alt="picture of a website: Cult of bulldada. Schoolproject" class="projects-images">
 			              <p>Schoolproject were which we were tasked with develop a fictive site for a fictive cult. The assignment was to practice design and UX and Usability</p>
 			            </a>
 			          </li>

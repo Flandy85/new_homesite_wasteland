@@ -12,15 +12,17 @@
 	background-size: cover;
 	background-repeat: no-repeat;
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
 	height: 600px;
 
-	h1 {
+	h1, h2, p {
 		font-size: 22px;
 		font-family: 'Roboto', sans-serif;
+		margin: 3px;
+		padding: 0;
 		text-shadow: 4px 4px 5px #000;
 	}
 }
@@ -133,13 +135,14 @@
 			flex-wrap: wrap;
 			justify-content: center;
 			align-items: center;
-			height: 100%;
+			height: 600px;
 		}
 		.contact-container {
 			display: flex;
 			flex-direction: column;
 			flex-wrap: wrap;
 			align-items: center;
+
 			width: 100%;
 		}
 		.contact-item > a {

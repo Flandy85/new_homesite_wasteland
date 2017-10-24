@@ -82,7 +82,7 @@ body, html {
 /************************
 		MAIN
 ************************/
-.section-start h1 {
+.section-start h1, .section-start h2 {
   color: #DCDCDC; }
 
 .section-about {
@@ -562,14 +562,16 @@ template {
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   height: 600px; }
-  .section-start h1 {
+  .section-start h1, .section-start h2, .section-start p {
     font-size: 22px;
     font-family: 'Roboto', sans-serif;
+    margin: 3px;
+    padding: 0;
     text-shadow: 4px 4px 5px #000; }
 
 .background-section {
@@ -667,7 +669,7 @@ template {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    height: 100%; }
+    height: 600px; }
   .section-contact .contact-container {
     display: flex;
     flex-direction: column;
@@ -817,6 +819,8 @@ template {
     max-width: 900px; }
   .section-about-text {
     width: 60%; }
+  .contact-section-background {
+    height: 600px; }
   .section-contact {
     display: flex;
     flex-direction: column;
@@ -824,15 +828,13 @@ template {
     justify-content: center;
     align-items: center;
     margin-top: 80px;
-    height: 600px;
+    height: 400px;
     width: 50%; }
     .section-contact h2 {
       font-size: 30px; }
     .section-contact .contact-paragraph1 {
       margin-right: 45px;
       margin-left: 45px; }
-    .section-contact .contact-paragraph2 {
-      margin-right: 180px; }
     .section-contact .contact-container {
       width: 50%; }
   #gallery {

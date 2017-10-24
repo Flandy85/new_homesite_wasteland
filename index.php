@@ -4,6 +4,8 @@
 	<div class="section-main">
 		<div class="section-start" id="Start">
 			<img src="./assets/images/wastelandsolution kopia.png" class="main-logo" alt="logo for website, text which says wastelandsolution">
+			<h1>FRONTEND DEVELOPMENT</h1>
+			<h2>A personal portfolio site</h2>
 		</div>
 		<div class="background-section">
 			<div class="section-about-top-border" id="About">
@@ -50,7 +52,7 @@
 				<section class="section-gallery">
 			        <ul id="gallery">
 			          <li>
-			            <a href="">
+			            <a href="https://wastelandsolution.se/Inl_1/">
 			              <img src="./assets/images/munk1.png" alt="" class="projects-images">
 			              <p>My first html and css website i devolopted in school. Not much to look at but it is more for showing progress</p>
 			            </a>
@@ -64,25 +66,37 @@
 			          <li>
 			            <a href="">
 			              <img src="./assets/images/inl_3.jpg" alt="Website of a to do list." class="projects-images">
-			              <p>Schoolproject. Developed a ToDo list with php programming</p>
+			              <p>Schoolproject. Developed a ToDo list with php programming. Star Craft inspired.</p>
 			            </a>
 			          </li>
 			          <li>
-			            <a href="">
+			            <a href="https://wastelandsolution.se/javascript/svg/">
 			              <img src="./assets/images/firewall-shield.png" alt="" class="projects-images">
 			              <p>A infographic for promoting SSL cerificate made with greensock js and Javascript</p>
 			            </a>
 			          </li>
 			          <li>
-			            <a href="">
+			            <a href="https://wastelandsolution.se/javascript/quizz/">
 			              <img src="./assets/images/quizz.png" alt="" class="projects-images">
 			              <p>My first JavaScript quizz.</p>
 			            </a>
 			          </li>
 			          <li>
-			            <a href="">
+			            <a href="https://www.rvft.se/">
 			              <img src="./assets/images/rvft.png" alt="" class="projects-images">
-			              <p>My first live project devolopted with wordpress and custom made wordpresstheme</p>
+			              <p>My first live project for a company were i devolopted their site with wordpress and custom made wordpresstheme.</p>
+			            </a>
+			          </li>
+			          <li>
+			            <a href="https://wastelandsolution.se/javascript/weatherapp/">
+			              <img src="./assets/images/weatherapp.png" alt="" class="projects-images">
+			              <p>Schoolproject in a group of three developted our own weahterapp for browser. Using javascript and three diffrent api:s that are fetching weather data, geoloction and images.</p>
+			            </a>
+			          </li>
+			          <li>
+			            <a href="">
+			              <img src="./assets/images/bulldad.png" alt="" class="projects-images">
+			              <p>Schoolproject were which we were tasked with develop a fictive site for a fictive cult. The assignment was to practice design and UX and Usability</p>
 			            </a>
 			          </li>
 			        </ul>

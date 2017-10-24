@@ -1,0 +1,140 @@
+/*************************
+		HEADER
+*************************/
+.header-container {
+	background-color: rgba(0, 0, 0, 0.6);
+	padding: 40px 0;
+	/*height: 6vh;*/
+	width: 100%;
+  	
+}
+.header-logo {
+	box-shadow: -4px 5px 40px 0px rgba(0,0,0,0.75);
+	width: 100%;
+	max-width: 300px;
+}
+
+/*Minimzing header*/
+.header-container.tiny {
+	-webkit-transition: padding 1s; /* For Safari 3.1 to 6.0 */
+    transition: padding 1s;
+    padding: 10px 0;
+    background-color: rgba(0, 0, 0, 0.9);
+
+}
+.menu > a {
+	font-size: 35px;
+	
+}
+/*Show fullscale menu*/
+.menu {
+	display: block;
+}
+.menu-start > a {
+	display: block;
+	font-family: 'Roboto: 500', sans-serif;
+	font-size: 25px;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	transition: font-size 0.5s;
+}
+.menu-about > a {
+	display: block;
+	font-family: 'Roboto: 500', sans-serif;
+	font-size: 25px;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	transition: font-size 0.5s;
+}
+.menu-contact > a {
+	display: block;
+	font-family: 'Roboto: 500', sans-serif;
+	font-size: 25px;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	transition: font-size 0.5s;
+}
+.menu-projects > a {
+	display: block;
+	font-family: 'Roboto: 500', sans-serif;
+	font-size: 25px;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	transition: font-size 0.5s;
+}
+.menu-start > a:hover { 
+	color: #fad087;
+	font-size: 28px;
+}
+.menu-about > a:hover {
+	color: #e08f46;
+	font-size: 28px;
+	
+}
+.menu-contact > a:hover {
+	color: #f5aa69;
+	font-size: 28px;
+	
+}
+.menu-projects > a:hover {
+	color: #b2682b;
+	font-size: 28px;
+	
+}
+
+/* Hidding mobile menu in tablet size*/
+.slide-menu-open {
+	display: none;
+}
+/**************************
+		SECTIONS
+**************************/
+.section-start {
+	height: 1000px;
+
+	h1 {
+		font-size: 50px;
+	}
+
+}
+.main-logo {
+	width: 100%;
+	max-width: 900px;
+}
+.section-about-text {
+	width: 60%;
+	
+}
+
+.section-contact {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	margin-top: 80px;
+	height: 600px;
+	width: 50%;
+
+	h2 {
+		font-size: 30px;
+	}
+
+	.contact-paragraph1 {
+		margin-right: 45px;
+		margin-left: 45px;
+	}
+	.contact-paragraph2 {
+		margin-right: 180px;
+	}
+	.contact-container {
+		width: 50%;
+	}
+}
+#gallery {
+	width: 90%;
+}

@@ -75,7 +75,7 @@
 			            </a>
 			          </li>
 			          <li>
-			            <a href="https://wastelandsolution.se/javascript/quizz/" target="_blank>
+			            <a href="https://wastelandsolution.se/javascript/quizz/" target="_blank">
 			              <img src="./assets/images/quizz.png" alt="Image of quizz site. Big alien" class="projects-images">
 			              <p>My first JavaScript quizz.</p>
 			            </a>
@@ -87,13 +87,13 @@
 			            </a>
 			          </li>
 			          <li>
-			            <a href="https://wastelandsolution.se/javascript/weatherapp/" target="_blank>
+			            <a href="https://wastelandsolution.se/javascript/weatherapp/" target="_blank">
 			              <img src="./assets/images/weatherapp.png" alt="Image of a weatherapp browser site" class="projects-images">
 			              <p>Schoolproject in a group of three developted our own weahterapp for browser. Using javascript and three diffrent api:s that are fetching weather data, geoloction and images.</p>
 			            </a>
 			          </li>
 			          <li>
-			            <a href="https://wastelandsolution.se/bulldad/index.php" target="_blank>
+			            <a href="https://wastelandsolution.se/bulldad/index.php" target="_blank">
 			              <img src="./assets/images/bulldad.png" alt="picture of a website: Cult of bulldada. Schoolproject" class="projects-images">
 			              <p>Schoolproject were which we were tasked with develop a fictive site for a fictive cult. The assignment was to practice design and UX and Usability</p>
 			            </a>

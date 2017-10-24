@@ -21,8 +21,7 @@
 
 					<p>Other assignments i have been tasked with are for example: design and create the companys new logo for the new plattform and also designed a product sheet for plattforms services with Photoshop.</p>
 				</div>
-				<img src="./assets/images/profile-pic.jpg">
-				
+				<img src="./assets/images/profile-pic.jpg">	
 			</div>
 			<div class="section-about-top-border" id="Contact">
 				<img src="./assets/images/rust-contact.png">
@@ -58,15 +57,15 @@
 			            </a>
 			          </li>
 			          <li>
-			            <a href="">
+			            <a href="./assets/images/inl_2.jpg">
 			              <img src="./assets/images/inl_2.jpg" alt="image of website. Website name: Weyland Yutani" class="projects-images">
-			              <p>Schoolproject. One of my first websites. Developed basic database system with PHP programming in school. Alien universe inspired.</p>
+			              <p>Schoolproject. One of my first websites. Developed basic database system with PHP programming in school. Alien universe inspired. Only placeholder images since server is not up and running</p>
 			            </a>
 			          </li>
 			          <li>
-			            <a href="">
+			            <a href="./assets/images/inl_3.jpg">
 			              <img src="./assets/images/inl_3.jpg" alt="Website of a to do list." class="projects-images">
-			              <p>Schoolproject. Developed a ToDo list with php programming. Star Craft inspired.</p>
+			              <p>Schoolproject. Developed a ToDo list with php programming. Star Craft inspired. Only placeholder images since server is not up and running</p>
 			            </a>
 			          </li>
 			          <li>

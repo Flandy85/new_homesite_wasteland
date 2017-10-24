@@ -4,11 +4,12 @@
 /*First 2 section in body*/
 .section-main {
 	height: 100%;
-	overflow-y: scroll;
-  	scroll-behavior: smooth;
+	/*overflow-y: scroll;
+  	scroll-behavior: smooth;*/
 }
 .section-start {
 	background-image: url("http://img09.deviantart.net/67dd/i/2014/189/9/a/passion_wasteland_by_bunsl-d7psb3k.jpg");
+	/*background-image: url("./src/scss/assets/images/waste.jpg");*/
 	background-size: cover;
 	background-repeat: no-repeat;
 	display: flex;
@@ -42,6 +43,9 @@
 	width: 100%;
 	max-width: 350px;
 }
+/*************************************************
+			ABOUT SECTION
+*************************************************/
 .section-about {
 	display: flex;
 	flex-direction: column;
@@ -57,14 +61,15 @@
 		}
 
 		img {
+			border: solid 5px black;
+			border-radius: 300px;
+			box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+			margin: 10px 0 30px 0;
 			width: 100%;
 			max-width: 400px;
-			margin: 0 0 30px 0;
+			
 		}
 }
-/*************************************************
-			ABOUT SECTION
-*************************************************/
 .section-about-top-border {
 	display: flex;
 	justify-content: center;
@@ -77,6 +82,7 @@
 	}
 }
 .section-about-text {
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 	display: flex;
 	flex-direction: column;
 	flex-wrap: wrap;
@@ -84,13 +90,14 @@
 	p {
 			
 		font-size: 20px;
+		font-weight: bold;
 		padding: 10px;
-		line-height: 35px;
+		line-height: 40px;
 		margin: 5px;
 		/*margin-right: 15px;
 		margin-left: 15px;*/
 		/*text-shadow: 1px 1px 0px rgba(150, 150, 150, 1);*/
-		text-shadow: black 0.1em 0.1em 0.2em;
+		/*text-shadow: black 0.1em 0.1em 0.2em;*/
 	}
 	.angular-link {
 		color: red;
@@ -113,16 +120,18 @@
 }
 
 .section-contact {
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 	margin: 60px 0 60px 0;
 
 		p {
 			font-family: 'Roboto', sans-serif;
 			font-size: 20px;
+			font-weight: bold;
 			padding: 5px;
-			line-height: 25px;
+			line-height: 35px;
 			margin: 0 15px 30px 15px;
 			/*text-shadow: 4px 4px 5px #000;*/
-			text-shadow: black 0.1em 0.1em 0.2em;
+			/*text-shadow: black 0.1em 0.1em 0.2em;*/
 		}
 		ul {
 			margin: 0;
@@ -182,20 +191,25 @@
 	width: 100%;
 
 	ul li {
+		
 		margin: 0;
 		padding: 0;
 		list-style: none;
+		/*background-color: rgba(255, 255, 255, 0.8);*/
 
 	}
+	
 	a  {
 		text-decoration: none;
 	}
 
 	
 	p {
-		color: #fff;
+		color: black;
 		font-family: 'Roboto', sans-serif;
 		font-size: 20px;
+		font-weight: bold;
+		line-height: 30px;
 		margin-top: 0;
 		padding-top: 0;
 		width: 100%;

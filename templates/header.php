@@ -15,10 +15,12 @@
 <header class="header-container" id="header-container">
 	<nav class="menu-container">
 		<img src="./assets/images/wastelandsolution kopia.png" class="header-logo" alt="logo for website, text which says wastelandsolution">
-		<div class="menu-start" id="menu-start"><a href="#Start" id="menu-start">Start</a></div>
-		<div class="menu-about"><a href="#About" id="menu-about">About</a></div>
-		<div class="menu-contact"><a href="#Contact" id="menu-contact">Contact</a></div>
-		<div class="menu-projects"><a href="#Projects" id="menu-projects">Projects</a></div>
+		<div class="menu-box">
+			<div class="menu-start" id="menu-start"><a href="#Start" id="menu-start">Start</a></div>
+			<div class="menu-about"><a href="#About" id="menu-about">About</a></div>
+			<div class="menu-contact"><a href="#Contact" id="menu-contact">Contact</a></div>
+			<div class="menu-projects"><a href="#Projects" id="menu-projects">Projects</a></div>
+		</div>
 
 		<!--Mobile meny-->
 		<div id="mainMenu" class="mobile-menu"></div>

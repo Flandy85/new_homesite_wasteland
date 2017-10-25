@@ -1,5 +1,4 @@
 .header-container {
-	background-color: #000000;
 	display: flex;
 	justify-content: center;
 	padding: 20px 0;
@@ -13,14 +12,15 @@
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	justify-content: space-around;
+	justify-content: space-between;
 	align-items: center;
+	margin-right: 40px;
 	width: 100%;
-
-
+}
+.menu-box {
+	display: none;
 }
 .header-logo {
-		box-shadow: -4px 5px 40px 0px rgba(0,0,0,0.75);
 		width: 100%;
 		max-width: 250px;
 }
@@ -50,5 +50,8 @@ a.side-menu-open {
 	display: none;
 }
 .menu-projects > a {
+	display: none;
+}
+.mobile-menu {
 	display: none;
 }

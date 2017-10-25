@@ -3,7 +3,7 @@
 *************************/
 .header-container {
 	/*background-image: url("../assets/images/rust.jpeg");*/
-	background-color: rgba(0, 0, 0, 0.6);
+	background-color: rgba(0, 0, 0, 0.8);
 	
 }
 .menu-container  > h3 {
@@ -22,9 +22,9 @@
 	}
 }
 .section-about {
-	/*background-color: rgba(50, 50, 50, 0.5);*/
+	background-color: rgba(255, 255, 255, 0.6);
 	.section-about-text {
-		background-color: rgba(255, 255, 255, 0.8);
+		/*background-color: rgba(255, 255, 255, 0.8);*/
 	}
 	h2, p {
 		
@@ -37,25 +37,32 @@
 		color: #fff;
 	}
 }
+.contact-section-background {
+	background-color: rgba(255, 255, 255, 0.8);
+}
 .section-contact {
 	
-	background-color: rgba(255, 255, 255, 0.8);
+	/*background-color: rgba(255, 255, 255, 0.4);*/
 
 	h2, p {
-		color: black;
+		color: #DCDCDC;
 	}
 	.contact-item > a {
-		color: black;
+		color: #DCDCDC;
 	}
 	
 }
-.section-projects-text {
-		color: #DCDCDC;
-	
+.section-projects {
+	background-color: rgba(255, 255, 255, 0.6);
 }
+/*.section-projects-text {
+	
+	color: #DCDCDC;
+	
+}*/
 #gallery {
 	p {
-	 	background-color: rgba(255, 255, 255, 0.8);
+	 	/*background-color: rgba(255, 255, 255, 0.8);*/
 		color: black;
 	}
 }

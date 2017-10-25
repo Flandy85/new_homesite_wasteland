@@ -559,8 +559,8 @@ template {
   	scroll-behavior: smooth;*/ }
 
 .section-start {
-  background-image: url("http://img09.deviantart.net/67dd/i/2014/189/9/a/passion_wasteland_by_bunsl-d7psb3k.jpg");
-  /*background-image: url("./src/scss/assets/images/waste.jpg");*/
+  /*background-image: url("http://img09.deviantart.net/67dd/i/2014/189/9/a/passion_wasteland_by_bunsl-d7psb3k.jpg");*/
+  background-image: url("https://wastelandsolution.se/wastelanddesert.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
@@ -577,7 +577,7 @@ template {
     text-shadow: 4px 4px 5px #000; }
 
 .background-section {
-  background-image: url("http://orig13.deviantart.net/4c10/f/2008/264/9/1/wasteland_01_by_everlite.jpg");
+  background-image: url("https://wastelandsolution.se/wastelandrock.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -589,6 +589,7 @@ template {
   width: 100%; }
 
 .main-logo {
+  margin-bottom: 93px;
   width: 100%;
   max-width: 350px; }
 
@@ -648,7 +649,7 @@ template {
 			CONTACT SECTION
 *************************************************/
 .contact-section-background {
-  background-image: url("http://cdn.themis-media.com/media/global/images/library/deriv/984/984155.jpg");
+  background-image: url("https://wastelandsolution.se/wastelandcanyon.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;

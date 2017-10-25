@@ -1015,6 +1015,7 @@ template {
     .section-start h1 {
       font-size: 50px; }
   .main-logo {
+    margin-bottom: 122px;
     width: 100%;
     max-width: 900px; }
   .section-about-text {

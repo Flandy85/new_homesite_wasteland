@@ -10,7 +10,7 @@
 			<!-- <div class="section-about-top-border" id="About"> -->
 				
 			<!-- </div> -->
-			<div class="section-about">
+			<div class="section-about" id="About">
 				<img src="./assets/images/rust-about.png" class="about-pic" alt="picture with rusty text saying About.">
 				<div class="section-about-text">
 					<p>Hi, I’m Anders Gustavsson. This is my portfolio where i share all of my projects. When im not designing web pages in my free time, im studying for Front End Development. Outside of school and work i like to, playing video games, work out at the gym, hanging out with my friends, eat good food. I also like to make a trip atleast once a year. My first year in school is now complete and have now started my intership as a Front End Developer.</p>
@@ -23,10 +23,10 @@
 				</div>
 				<img src="./assets/images/profile-pic.jpg" class="profile-pic" alt="picture of the owner of the website. White male, beard, in his thirties.">	
 			</div>
-			<div class="contact-section-background">
+			<div class="contact-section-background" id="Contact">
+				<img src="./assets/images/rust-contact.png">
 				<div class="section-contact">
-					<img src="./assets/images/rust-contact.png">
-					<div class="contact-info-container">
+					<!-- <div class="contact-info-container"> -->
 						<p>I am looking for work after i have finished my studies. So if you wish to contact me about a job offer or a private project let me know. </p>
 
 						<p class="contact-paragraph2">You can reach me either by phone or email.</p>
@@ -36,13 +36,13 @@
 								<li class="contact-item"><a href="mailto: gustavsson09@hotmail.com">E-mail: gustavsson09@hotmail.com</a></li>
 							</ul>
 						</div>
-					</div>
+					<!-- </div> -->
 				</div>
 			</div>
 			<!-- <div class="section-about-top-border" id="Projects">
 				
 			</div> -->
-			<div class="section-projects">
+			<div class="section-projects" id="Projects">
 				<img src="./assets/images/rust-projects.png">
 				<div class="section-projects-text">
 					<p>This is my portfolio where i share all of my projects. </p>

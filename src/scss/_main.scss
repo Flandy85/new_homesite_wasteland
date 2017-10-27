@@ -33,7 +33,6 @@
 }
 .background-section {
 	background-image: url("https://wastelandsolution.se/moutainwallpaper.jpg");
-
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -139,7 +138,7 @@
 	/*box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);*/
 	display: flex;
 	flex-direction: column;
-	flex-wrap: wrap;
+	/*flex-wrap: wrap;*/
 	justify-content: center;
 	align-items: center;
 	width: 100%;
@@ -153,7 +152,7 @@
 			padding: 5px;
 			line-height: 35px;
 			margin: 0 5px 10px 5px;
-			text-shadow: 4px 4px 5px #000;
+			/*text-shadow: 4px 4px 5px #000;*/
 			/*text-shadow: black 0.1em 0.1em 0.2em;*/
 		}
 		ul {
@@ -184,22 +183,27 @@
 			text-shadow: 4px 4px 5px #000;
 		}
 		.link-container {
-			flex-direction: row;
-			.linkedin-icon {
-				width: 100%;
-				max-width: 200px;
-			}
-			.facebook-icon {
-				width: 100%;
-				max-width: 170px;
-				margin-bottom: 23px;
-			}
+			
+			
+		}
+		.linkedin-icon {
+			width: 100%;
+			max-width: 100px;
+		}
+		.facebook-icon {
+			width: 100%;
+			max-width: 70px;
+			margin-bottom: 23px;
 		}
 }
 /*************************************************
 			PROJECTS SECTION
 *************************************************/
 .section-projects {
+	/*background-image: url("https://wastelandsolution.se/moutainwallpaper.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;*/
 	display: flex;
 	flex-direction: column;
 	flex-wrap: wrap;
@@ -220,7 +224,9 @@
 		line-height: 30px;
 		margin: 5px;
 	}
+	
 }
+
 .section-gallery {
 	display: flex;
 	flex-wrap: wrap;
@@ -262,6 +268,8 @@
 	margin: 5px;
 	padding: 5px;
 	width: 100%;
+
+
 }
 .projects-images {
 	width: 100%;

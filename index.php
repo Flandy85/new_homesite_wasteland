@@ -29,14 +29,18 @@
 					<!-- <div class="contact-info-container"> -->
 						<p>I am looking for work after i have finished my studies. So if you wish to contact me about a job offer or a private project let me know. </p>
 
-						<p class="contact-paragraph2">You can reach me either by phone or email.</p>
-						<div class="contact-container">
+						<p>You can reach me either by phone or email.</p>
+						<!-- <div class="contact-container"> -->
 							<ul class="contact-list">
 								<li class="contact-item"><a href="tel:0768505328">Tel: 0768505328</a></li>
 								<li class="contact-item"><a href="mailto: gustavsson09@hotmail.com">E-mail: gustavsson09@hotmail.com</a></li>
 							</ul>
-						</div>
+						<!-- </div> -->
 					<!-- </div> -->
+					<!-- <div class="link-container">
+						<img src="http://cleaner-and-launderer.com/wp-content/uploads/2014/11/linkedin.png" alt="" class="linkedin-icon">
+						<img src="http://pngimg.com/uploads/facebook_logos/facebook_logos_PNG19761.png" alt="" class="facebook-icon">
+					</div> -->
 				</div>
 			</div>
 			<!-- <div class="section-about-top-border" id="Projects">

@@ -581,10 +581,11 @@ template {
   align-items: center;
   height: 600px; }
   .section-start h1 {
+    font-size: 22px;
     font-family: 'Roboto: 500', sans-serif;
     text-shadow: 4px 4px 5px #000; }
   .section-start h2, .section-start p {
-    font-size: 30px;
+    font-size: 20px;
     font-family: 'Roboto', sans-serif;
     margin: 3px;
     padding: 0;
@@ -691,7 +692,7 @@ template {
     align-items: flex-start;
     width: 100%; }
     .contact-section-background .link-container a {
-      font-size: 20px;
+      font-size: 16px;
       font-family: 'Roboto: 500', sans-serif;
       padding: 10px;
       line-height: 40px;
@@ -866,7 +867,14 @@ template {
     flex-wrap: wrap;
     justify-content: flex-start;
     align-items: center;
-    height: 600px; } }
+    height: 600px; }
+    .contact-section-background .link-container a {
+      font-size: 20px;
+      font-family: 'Roboto: 500', sans-serif;
+      padding: 10px;
+      line-height: 40px;
+      margin: 2px;
+      text-decoration-line: none; } }
 
 @media screen and (min-width: 1501px) and (max-width: 2200px) {
   /*************************
@@ -972,9 +980,20 @@ template {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /*height: 600px;*/ }
+    height: 1000px; }
     .contact-section-background img {
       margin-bottom: 35px; }
+    .contact-section-background .contact-container {
+      width: 50%; }
+    .contact-section-background .link-container {
+      width: 50%; }
+      .contact-section-background .link-container a {
+        font-size: 20px;
+        font-family: 'Roboto: 500', sans-serif;
+        padding: 10px;
+        line-height: 40px;
+        margin: 2px;
+        text-decoration-line: none; }
   .section-contact {
     display: flex;
     flex-direction: column;
@@ -1099,6 +1118,8 @@ template {
       justify-content: flex-start;
       align-items: flex-start;
       width: 50%; }
+      .contact-section-background .link-container a {
+        font-size: 20px; }
   #gallery {
     width: 100%;
     height: 440px; }

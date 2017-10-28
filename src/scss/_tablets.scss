@@ -122,4 +122,20 @@
 	justify-content: flex-start;
 	align-items: center;
 	height: 600px;
+
+	.link-container {
+			
+
+		a {
+			font-size: 20px;
+			font-family: 'Roboto: 500', sans-serif;	
+			padding: 10px;
+			line-height: 40px;
+			margin: 2px;
+			text-decoration-line: none;
+
+			
+		}
+	}
 }
+

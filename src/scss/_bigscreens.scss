@@ -133,10 +133,27 @@
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	/*height: 600px;*/
+	height: 1000px;
 
 	img {
 		margin-bottom: 35px;
+	}
+	.contact-container {
+		width: 50%;
+	}
+	.link-container {
+		width: 50%;
+
+		a {
+			font-size: 20px;
+			font-family: 'Roboto: 500', sans-serif;	
+			padding: 10px;
+			line-height: 40px;
+			margin: 2px;
+			text-decoration-line: none;
+
+			
+		}
 	}
 }
 .section-contact {

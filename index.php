@@ -22,23 +22,27 @@
 			<img src="./assets/images/profile-pic.jpg" class="profile-pic" alt="picture of the owner of the website. White male, beard, in his thirties.">	
 		</div>
 		<div class="contact-section-background" id="Contact">
-			<img src="./assets/images/rust-contact.png">
-			<div class="section-contact">
-				<!-- <div class="contact-info-container"> -->
-					<p>I am looking for work after i have finished my studies. So if you wish to contact me about a job offer or a private project let me know. </p>
+			<img src="./assets/images/rust-contact.png" alt="image containing text: contact.">
+			<div class="contact-container">
+				<p>I am looking for work after i have finished my studies nad internships. So if you wish to contact me about a job offer or a private project let me know.
 
-					<p>You can reach me either by phone or email.</p>
-					<!-- <div class="contact-container"> -->
-						<ul class="contact-list">
-							<li class="contact-item"><a href="tel:0768505328">Tel: 0768505328</a></li>
-							<li class="contact-item"><a href="mailto: gustavsson09@hotmail.com">E-mail: gustavsson09@hotmail.com</a></li>
-						</ul>
-					<!-- </div> -->
-				<!-- </div> -->
+				You can reach me either by phone or email.
+
+				Or contact me throu linkedin or facebook.
+				</p>	
 			</div>
+			<div class="link-container">
+				<a href="mailto: gustavsson09@hotmail.com">E-mail: gustavsson09@hotmail.com</a>
+				<a href="phone: 0768505328">Telephone: 0768505328</a>
+
+				<a href="https://www.linkedin.com/in/anders-gustavsson-9b3667130/">LinkedIn<img src="./assets/images/linkedin.png" alt="logotype of linkedin"></a>
+				<a href="https://www.facebook.com/anders.gustavsson.9081">Facebook<img src="./assets/images/facebook_logos_PNG19761.png" alt="logotype of website facebook."></a>
+			</div>
+
+			
 		</div>
 		<div class="section-projects" id="Projects">
-			<img src="./assets/images/rust-projects.png">
+			<img src="./assets/images/rust-projects.png" alt="image containg test: projects">
 			<div class="section-projects-text">
 				<p>This is my portfolio where i share all of my projects. </p>
 			</div>
@@ -46,45 +50,21 @@
 		        <ul id="gallery">
 		          <li>
 		          	<div class="drop">
-			            <a href="https://wastelandsolution.se/Inl_1/" target="_blank">
-			              <img src="./assets/images/munk1.png" alt="Image of donuts. Schoolproject of a donuts site." class="projects-images">
-			              <div class="drop-content">
-			              <p>My first html and css website i devolopted in school. Not much to look at but it is more for showing progress</p>
-			          	  </div>
-			            </a>
-		            </div>
-		          </li>
-		          <li>
-		          	<div class="drop">
-			            <a href="./assets/images/inl_2.jpg">
-			              <img src="./assets/images/inl_2.jpg" alt="image of website. Website name: Weyland Yutani" class="projects-images">
-			              <div class="drop-content">
-			              	<p>Schoolproject. One of my first websites. Developed basic database system with PHP programming in school. Alien universe inspired. Only placeholder images since server is not up and running.
-			              	</p>
-			          	  </div>
-			            </a>
-		        	</div>
-		          </li>
-		        </ul>
-		        <ul id="gallery">
-		          <li>
-		          	<div class="drop">
-			            <a href="./assets/images/inl_3.jpg">
-			              <img src="./assets/images/inl_3.jpg" alt="Website of a to do list." class="projects-images">
-			              <div class="drop-content">
-			              	<p>Schoolproject. Developed a ToDo list with php programming. Star Craft inspired. Only placeholder images since server is not up and running.
-			              	</p>
-			          	  </div>
-			            </a>
-		        	</div>
-		          </li>
-		          <li>
-		          	<div class="drop">
 			            <a href="https://wastelandsolution.se/javascript/svg/">
 			              <img src="./assets/images/firewall-shield.png" alt="Image of a shield representing a infographic" class="projects-images">
 			              <div class="drop-content">
 			              	<p>A infographic for promoting SSL cerificate made with greensock js and Javascript</p>
 			              </div>
+			            </a>
+		        	</div>
+		          </li>
+		          <li>
+		          	<div class="drop">
+			            <a href="https://wastelandsolution.se/javascript/weatherapp/" target="_blank">
+			              <img src="./assets/images/weatherapp.png" alt="Image of a weatherapp browser site" class="projects-images">
+			              <div class="drop-content">
+			              	<p>Schoolproject in a group of three developted our own weahterapp for browser. Using javascript and three diffrent api:s that are fetching weather data, geoloction and images.</p>
+			          	  </div>
 			            </a>
 		        	</div>
 		          </li>
@@ -106,28 +86,6 @@
 			              <img src="./assets/images/rvft.png" alt="Image of a company startingpage. Company RVFT." class="projects-images">
 			              <div class="drop-content">
 			              	<p>My first live project for a company were i devolopted their site with wordpress and custom made wordpresstheme.</p>
-			          	  </div>
-			            </a>
-		        	</div>
-		          </li>
-		        </ul>
-		        <ul id="gallery">
-		          <li>
-		          	<div class="drop">
-			            <a href="https://wastelandsolution.se/javascript/weatherapp/" target="_blank">
-			              <img src="./assets/images/weatherapp.png" alt="Image of a weatherapp browser site" class="projects-images">
-			              <div class="drop-content">
-			              	<p>Schoolproject in a group of three developted our own weahterapp for browser. Using javascript and three diffrent api:s that are fetching weather data, geoloction and images.</p>
-			          	  </div>
-			            </a>
-		        	</div>
-		          </li>
-		          <li>
-		          	<div class="drop">
-			            <a href="https://wastelandsolution.se/bulldad/index.php" target="_blank">
-			              <img src="./assets/images/bulldad.png" alt="picture of a website: Cult of bulldada. Schoolproject" class="projects-images">
-			              <div class="drop-content">
-			              	<p>Schoolproject were which we were tasked with develop a fictive site for a fictive cult. The assignment was to practice design and UX and Usability</p>
 			          	  </div>
 			            </a>
 		        	</div>

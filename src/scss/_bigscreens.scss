@@ -109,6 +109,7 @@
 		SECTIONS
 **************************/
 .section-start {
+	background-image: url("https://wastelandsolution.se/Store_StylizedWastelandRocks_screenshot_7-1920x1080-8502767adcb27d55d4981ca3d9c7d777.png");
 	height: 1000px;
 
 	h1 {
@@ -128,6 +129,7 @@
 
 
 .contact-section-background {
+	background-image: url('https://wastelandsolution.se/moutain_opacity60_black.png');
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -147,23 +149,7 @@
 	height: 250px;
 	width: 50%;
 
-	/*h2 {
-		font-size: 30px;
-	}
-	p {
-		
-	}
-*/
-	/*.contact-paragraph1 {
-		margin-right: 45px;
-		margin-left: 45px;
-	}
-	.contact-paragraph2 {
-		margin-right: 180px;
-	}
-	.contact-container {
-		width: 50%;
-	}*/
+	
 }
 #gallery {
 	width: 80%;

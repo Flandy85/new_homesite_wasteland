@@ -99,13 +99,10 @@ body, html {
 
 .contact-section-background {
   background-color: rgba(255, 255, 255, 0.6); }
-
-.section-contact h2, .section-contact p {
-  background-color: rgba(255, 255, 255, 0.8);
-  color: #black; }
-
-.section-contact .contact-item > a {
-  color: #DCDCDC; }
+  .contact-section-background .contact-container {
+    color: #DCDCDC; }
+  .contact-section-background .link-container a {
+    color: #DCDCDC; }
 
 .section-projects {
   background-color: rgba(255, 255, 255, 0.9); }
@@ -572,7 +569,7 @@ template {
 
 .section-start {
   /*background-image: url("http://img09.deviantart.net/67dd/i/2014/189/9/a/passion_wasteland_by_bunsl-d7psb3k.jpg");*/
-  background-image: url("https://wastelandsolution.se/wastelandrock.png");
+  background-image: url("https://wastelandsolution.se/Store_StylizedWastelandRocks-mobile.png");
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
@@ -647,7 +644,7 @@ template {
   .section-about-text p {
     font-family: 'Roboto: 500', sans-serif;
     font-size: 20px;
-    font-weight: bold;
+    /*font-weight: bold;*/
     padding: 10px;
     line-height: 40px;
     margin: 5px;
@@ -664,7 +661,7 @@ template {
 			CONTACT SECTION
 *************************************************/
 .contact-section-background {
-  background-image: url("https://wastelandsolution.se/moutain.png");
+  background-image: url("https://wastelandsolution.se/moutain_mobile.png");
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
@@ -672,60 +669,37 @@ template {
   /*flex-wrap: wrap;*/
   justify-content: center;
   align-items: center;
-  height: 400px;
+  /*height: 400px;*/
   width: 100%; }
   .contact-section-background img {
     margin-top: 30px;
     width: 100%;
     max-width: 250px; }
-
-.section-contact {
-  /*box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);*/
-  display: flex;
-  flex-direction: column;
-  /*flex-wrap: wrap;*/
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  /*margin: 60px 0 60px 0;*/ }
-  .section-contact p {
+  .contact-section-background .contact-container {
     font-family: 'Roboto: 500', sans-serif;
     font-size: 20px;
-    font-weight: bold;
-    padding: 5px;
-    line-height: 35px;
-    margin: 0 5px 10px 5px;
-    /*text-shadow: 4px 4px 5px #000;*/
-    /*text-shadow: black 0.1em 0.1em 0.2em;*/ }
-  .section-contact ul {
-    margin: 0;
-    padding: 0;
-    list-style: none; }
-  .section-contact .contact-info-container {
+    padding: 10px;
+    line-height: 40px;
+    margin: 5px; }
+  .contact-section-background .link-container {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    height: 500px; }
-  .section-contact .contact-container {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
     width: 100%; }
-  .section-contact .contact-item > a {
-    font-size: 22px;
-    font-family: 'Roboto: 500', sans-serif;
-    text-decoration: none;
-    text-shadow: 4px 4px 5px #000; }
-  .section-contact .linkedin-icon {
-    width: 100%;
-    max-width: 100px; }
-  .section-contact .facebook-icon {
-    width: 100%;
-    max-width: 70px;
-    margin-bottom: 23px; }
+    .contact-section-background .link-container a {
+      font-size: 20px;
+      font-family: 'Roboto: 500', sans-serif;
+      padding: 10px;
+      line-height: 40px;
+      margin: 2px;
+      text-decoration-line: none; }
+      .contact-section-background .link-container a img {
+        width: 100%;
+        max-width: 35px;
+        margin: 0 0 0 15px;
+        padding: 0; }
 
 /*************************************************
 			PROJECTS SECTION
@@ -886,59 +860,7 @@ template {
     flex-wrap: wrap;
     justify-content: flex-start;
     align-items: center;
-    height: 600px; }
-  .section-contact {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    align-items: flex-start;
-    margin-top: 30px;
-    width: 50%; }
-  .contact-info-container {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    height: 500px;
-    width: 50%; }
-  .contact-container {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
-    width: 100%; }
-  .contact-item > a {
-    font-size: 22px;
-    font-family: 'Roboto: 500', sans-serif;
-    text-decoration: none;
-    text-shadow: 4px 4px 5px #000; }
-  /*.link-container {
-	display: flex;
-	flex-direction: column;
-	flex-wrap: wrap;
-	height: 500px;
-	width: 35%;
-
-	.linkedin-icon {
-		width: 100%;
-		max-width: 100px;
-	}
-	.facebook-icon {
-		width: 100%;
-		max-width: 70px;
-		margin-bottom: 23px;
-	}
-}*/
-  /*.contact-info-container {
-	display: flex;
-	flex-direction: column;
-	flex-wrap: wrap;
-	justify-content: center;
-	align-items: center;
-	height: 450px;
-}*/ }
+    height: 600px; } }
 
 @media screen and (min-width: 1501px) and (max-width: 2200px) {
   /*************************
@@ -1029,6 +951,7 @@ template {
 		SECTIONS
 **************************/
   .section-start {
+    background-image: url("https://wastelandsolution.se/Store_StylizedWastelandRocks_screenshot_7-1920x1080-8502767adcb27d55d4981ca3d9c7d777.png");
     height: 1000px; }
     .section-start h1 {
       font-size: 50px; }
@@ -1039,6 +962,7 @@ template {
   .section-about-text {
     width: 60%; }
   .contact-section-background {
+    background-image: url("https://wastelandsolution.se/moutain_opacity60_black.png");
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -1053,24 +977,7 @@ template {
     align-items: center;
     margin: 35px 0 30px 0;
     height: 250px;
-    width: 50%;
-    /*h2 {
-		font-size: 30px;
-	}
-	p {
-		
-	}
-*/
-    /*.contact-paragraph1 {
-		margin-right: 45px;
-		margin-left: 45px;
-	}
-	.contact-paragraph2 {
-		margin-right: 180px;
-	}
-	.contact-container {
-		width: 50%;
-	}*/ }
+    width: 50%; }
   #gallery {
     width: 80%; } }
 
@@ -1158,6 +1065,7 @@ template {
 		SECTIONS
 **************************/
   .section-start {
+    background-image: url("https://wastelandsolution.se/Store_StylizedWastelandRocks_screenshot_7-1920x1080-8502767adcb27d55d4981ca3d9c7d777.png");
     height: 820px; }
     .section-start h1 {
       font-size: 50px; }
@@ -1167,35 +1075,24 @@ template {
   .section-about-text {
     width: 60%; }
   .contact-section-background {
+    background-image: url("https://wastelandsolution.se/moutain_opacity60_black.png");
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-content: flex-start;
     width: 100%;
-    /*height: 850px;*/ }
+    height: 850px; }
     .contact-section-background img {
       margin-bottom: 35px; }
-  .section-contact {
-    display: flex;
-    flex-direction: column;
-    /*flex-wrap: wrap;*/
-    justify-content: center;
-    align-items: center;
-    /*margin: 35px 0 30px 0;*/
-    height: 250px;
-    width: 70%;
-    /*.contact-paragraph1 {
-		margin-right: 45px;
-		margin-left: 45px;
-	}
-	.contact-paragraph2 {
-		
-	}
-	.contact-container {
-		width: 50%;
-	}*/ }
-    .section-contact h2 {
-      font-size: 30px; }
+    .contact-section-background .contact-container {
+      width: 50%; }
+    .contact-section-background .link-container {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      align-items: flex-start;
+      width: 50%; }
   #gallery {
     width: 100%;
     height: 440px; }

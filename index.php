@@ -24,7 +24,7 @@
 		<div class="contact-section-background" id="Contact">
 			<img src="./assets/images/rust-contact.png" alt="image containing text: contact.">
 			<div class="contact-container">
-				<p>I am looking for work after i have finished my studies nad internships. So if you wish to contact me about a job offer or a private project let me know.
+				<p>I am looking for work after i have finished my studies and internships. So if you wish to contact me about a job offer or a private project let me know.
 
 				You can reach me either by phone or email.
 
@@ -32,19 +32,19 @@
 				</p>	
 			</div>
 			<div class="link-container">
-				<a href="mailto: gustavsson09@hotmail.com">E-mail: gustavsson09@hotmail.com</a>
-				<a href="phone: 0768505328">Telephone: 0768505328</a>
+				<a href="mailto: gustavsson09@hotmail.com">E-mail: gustavsson09@hotmail.com <img src="./assets/images/mail.png" alt="Icon of a mail." class="icons"></a>
+				<a href="phone: 0768505328">Telephone: 0768505328<img src="./assets/images/phone.png" alt="Icon of a phone" class="icons"></a>
 
 				<a href="https://www.linkedin.com/in/anders-gustavsson-9b3667130/">LinkedIn<img src="./assets/images/linkedin.png" alt="logotype of linkedin"></a>
 				<a href="https://www.facebook.com/anders.gustavsson.9081">Facebook<img src="./assets/images/facebook_logos_PNG19761.png" alt="logotype of website facebook."></a>
-			</div>
-
-			
+			</div>	
 		</div>
 		<div class="section-projects" id="Projects">
 			<img src="./assets/images/rust-projects.png" alt="image containg test: projects">
 			<div class="section-projects-text">
-				<p>This is my portfolio where i share all of my projects. </p>
+				<p>This is my portfolio where i share all of my private projects. Have developted alot more then these but they do not exist any longer.
+				</p>
+				<p>Here is my <a href="https://github.com/Flandy85">Github account</a> for peeking at my repositories</p>
 			</div>
 			<section class="section-gallery">
 		        <ul id="gallery">

@@ -21,11 +21,11 @@ slide_close_btn.click(function(e){
 $(document).ready(function(){
 	// Shrinking header when scrolling   
 	$(window).on("scroll touchmove", function () {
-	    $('#header-container').toggleClass('tiny', $(document).scrollTop() > 0);
+	    $('#header-container-js').toggleClass('tiny', $(document).scrollTop() > 0);
 	});
 	/********************************************/
 	// Click event for scrolling speed each section
-	$("#menu-start").on("click", function () {
+	$("#menu-start-js").on("click", function () {
 	 	$('html, body').animate({
 		    scrollTop: $("#Start").offset().top
 		}, 1000);

@@ -50,7 +50,7 @@
 		        <ul id="gallery">
 		          <li>
 		          	<div class="drop">
-			            <a href="https://wastelandsolution.se/javascript/svg/">
+			            <a href="https://wastelandsolution.se/javascript/svg/" rel="noopener" target="blank">
 			              <img src="./assets/images/firewall-shield.png" alt="Image of a shield representing a infographic" class="projects-images">
 			              <div class="drop-content">
 			              	<p>A infographic for promoting SSL cerificate made with greensock js and Javascript</p>
@@ -60,7 +60,7 @@
 		          </li>
 		          <li>
 		          	<div class="drop">
-			            <a href="https://wastelandsolution.se/javascript/weatherapp/" target="_blank">
+			            <a href="https://wastelandsolution.se/javascript/weatherapp/" target="_blank" rel="noopener">
 			              <img src="./assets/images/weatherapp.png" alt="Image of a weatherapp browser site" class="projects-images">
 			              <div class="drop-content">
 			              	<p>Schoolproject in a group of three developted our own weahterapp for browser. Using javascript and three diffrent api:s that are fetching weather data, geoloction and images.</p>
@@ -72,7 +72,7 @@
 		        <ul id="gallery">
 		          <li>
 		          	<div class="drop">
-			            <a href="https://wastelandsolution.se/javascript/quizz/" target="_blank">
+			            <a href="https://wastelandsolution.se/javascript/quizz/" target="_blank" rel="noopener">
 			              <img src="./assets/images/quizz.png" alt="Image of quizz site. Big alien" class="projects-images">
 			              <div class="drop-content">
 			              	<p>My first JavaScript quizz.</p>
@@ -82,7 +82,7 @@
 		          </li>
 		          <li>
 		          	<div class="drop">
-			            <a href="https://www.rvft.se/" target="_blank">
+			            <a href="https://www.rvft.se/" target="_blank" rel="noopener">
 			              <img src="./assets/images/rvft.png" alt="Image of a company startingpage. Company RVFT." class="projects-images">
 			              <div class="drop-content">
 			              	<p>My first live project for a company were i devolopted their site with wordpress and custom made wordpresstheme.</p>

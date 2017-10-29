@@ -571,7 +571,7 @@ template {
 
 .section-start {
   /*background-image: url("http://img09.deviantart.net/67dd/i/2014/189/9/a/passion_wasteland_by_bunsl-d7psb3k.jpg");*/
-  background-image: url("https://wastelandsolution.se/Store_StylizedWastelandRocks-mobile.png");
+  background-image: url("Store_StylizedWastelandRocks-mobile.png");
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
@@ -592,7 +592,7 @@ template {
     text-shadow: 4px 4px 5px #000; }
 
 .background-section {
-  background-image: url("https://wastelandsolution.se/moutainwallpaper.jpg");
+  background-image: url("moutainwallpaper.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -664,7 +664,7 @@ template {
 			CONTACT SECTION
 *************************************************/
 .contact-section-background {
-  background-image: url("https://wastelandsolution.se/moutain_mobile.png");
+  background-image: url("moutain_mobile.png");
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
@@ -770,113 +770,7 @@ template {
   max-width: 450px; }
 
 /*Media quires for desktop and tablet. No mobile css since its mobile first*/
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-  /*************************
-		HEADER
-*************************/
-  .header-container {
-    background-color: rgba(0, 0, 0, 0.6);
-    padding: 20px 0;
-    width: 100%; }
-  .header-logo {
-    box-shadow: -4px 5px 40px 0px rgba(0, 0, 0, 0.75);
-    width: 100%;
-    max-width: 300px; }
-  .menu > a {
-    font-size: 18px; }
-  /*Show fullscale menu*/
-  .menu-container {
-    display: flex; }
-  /*.menu { 
-	display: block;
-}*/
-  .menu-box {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 40px 0 0;
-    padding: 0;
-    width: 350px; }
-  .menu-start > a {
-    /*display: block;*/
-    font-family: 'Roboto: 500', sans-serif;
-    font-size: 25px;
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-    transition: font-size 0.5s; }
-  .menu-about > a {
-    /*display: block;*/
-    font-family: 'Roboto: 500', sans-serif;
-    font-size: 25px;
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-    transition: font-size 0.5s; }
-  .menu-contact > a {
-    /*display: block;*/
-    font-family: 'Roboto: 500', sans-serif;
-    font-size: 25px;
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-    transition: font-size 0.5s; }
-  .menu-projects > a {
-    /*display: block;*/
-    font-family: 'Roboto: 500', sans-serif;
-    font-size: 25px;
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-    transition: font-size 0.5s; }
-  .menu-start > a:hover {
-    color: #fad087;
-    font-size: 28px; }
-  .menu-about > a:hover {
-    color: #e08f46;
-    font-size: 28px; }
-  .menu-contact > a:hover {
-    color: #f5aa69;
-    font-size: 28px; }
-  .menu-projects > a:hover {
-    color: #b2682b;
-    font-size: 28px; }
-  /* Hidding mobile menu in tablet size*/
-  .mobile-menu {
-    display: none; }
-  .slide-menu-open {
-    display: none; }
-  /**************************
-		SECTIONS
-**************************/
-  .section-start h1 {
-    font-size: 40px; }
-  .main-logo {
-    width: 100%;
-    max-width: 600px; }
-  /*.section-about {
-	margin-top: 60px;
-	height: 80vh;
-	width: 85%;
-}*/
-  .contact-section-background {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    align-items: center;
-    height: 600px; }
-    .contact-section-background .link-container a {
-      font-size: 20px;
-      font-family: 'Roboto: 500', sans-serif;
-      padding: 10px;
-      line-height: 40px;
-      margin: 2px;
-      text-decoration-line: none; } }
-
-@media screen and (min-width: 1501px) and (max-width: 2200px) {
+@media screen and (min-width: 1501px) and (max-width: 3000px) {
   /*************************
 		HEADER
 *************************/
@@ -965,7 +859,7 @@ template {
 		SECTIONS
 **************************/
   .section-start {
-    background-image: url("https://wastelandsolution.se/Store_StylizedWastelandRocks_screenshot_7-1920x1080-8502767adcb27d55d4981ca3d9c7d777.png");
+    background-image: url("wastelandrock.png");
     height: 1000px; }
     .section-start h1 {
       font-size: 50px; }
@@ -976,7 +870,7 @@ template {
   .section-about-text {
     width: 60%; }
   .contact-section-background {
-    background-image: url("https://wastelandsolution.se/moutain_opacity60_black.png");
+    background-image: url("moutain_opacity60_black.png");
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -1090,7 +984,7 @@ template {
 		SECTIONS
 **************************/
   .section-start {
-    background-image: url("https://wastelandsolution.se/Store_StylizedWastelandRocks_screenshot_7-1920x1080-8502767adcb27d55d4981ca3d9c7d777.png");
+    background-image: url("wastelandrock.png");
     height: 820px; }
     .section-start h1 {
       font-size: 50px; }
@@ -1100,7 +994,7 @@ template {
   .section-about-text {
     width: 60%; }
   .contact-section-background {
-    background-image: url("https://wastelandsolution.se/moutain_opacity60_black.png");
+    background-image: url("moutain_opacity60_black.png");
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -1134,3 +1028,109 @@ template {
     visibility: visible;
     opacity: 1;
     transition: opacity 0.3s, visibility 1s; } }
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  /*************************
+		HEADER
+*************************/
+  .header-container {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px 0;
+    width: 100%; }
+  .header-logo {
+    box-shadow: -4px 5px 40px 0px rgba(0, 0, 0, 0.75);
+    width: 100%;
+    max-width: 300px; }
+  .menu > a {
+    font-size: 18px; }
+  /*Show fullscale menu*/
+  .menu-container {
+    display: flex; }
+  /*.menu { 
+	display: block;
+}*/
+  .menu-box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 40px 0 0;
+    padding: 0;
+    width: 350px; }
+  .menu-start > a {
+    /*display: block;*/
+    font-family: 'Roboto: 500', sans-serif;
+    font-size: 25px;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    transition: font-size 0.5s; }
+  .menu-about > a {
+    /*display: block;*/
+    font-family: 'Roboto: 500', sans-serif;
+    font-size: 25px;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    transition: font-size 0.5s; }
+  .menu-contact > a {
+    /*display: block;*/
+    font-family: 'Roboto: 500', sans-serif;
+    font-size: 25px;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    transition: font-size 0.5s; }
+  .menu-projects > a {
+    /*display: block;*/
+    font-family: 'Roboto: 500', sans-serif;
+    font-size: 25px;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    transition: font-size 0.5s; }
+  .menu-start > a:hover {
+    color: #fad087;
+    font-size: 28px; }
+  .menu-about > a:hover {
+    color: #e08f46;
+    font-size: 28px; }
+  .menu-contact > a:hover {
+    color: #f5aa69;
+    font-size: 28px; }
+  .menu-projects > a:hover {
+    color: #b2682b;
+    font-size: 28px; }
+  /* Hidding mobile menu in tablet size*/
+  .mobile-menu {
+    display: none; }
+  .slide-menu-open {
+    display: none; }
+  /**************************
+		SECTIONS
+**************************/
+  .section-start h1 {
+    font-size: 40px; }
+  .main-logo {
+    width: 100%;
+    max-width: 600px; }
+  /*.section-about {
+	margin-top: 60px;
+	height: 80vh;
+	width: 85%;
+}*/
+  .contact-section-background {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    height: 600px; }
+    .contact-section-background .link-container a {
+      font-size: 20px;
+      font-family: 'Roboto: 500', sans-serif;
+      padding: 10px;
+      line-height: 40px;
+      margin: 2px;
+      text-decoration-line: none; } }

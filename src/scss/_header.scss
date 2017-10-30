@@ -6,6 +6,7 @@
     top: 0;
 	position: fixed;
 	width: 100%;
+	z-index: 4;
 	
 }
 .menu-container {
@@ -39,6 +40,7 @@ a.side-menu-open {
 	padding: 0;
 	text-decoration: none;
 }
+
 /*.menu-start > a {
 	display: none;
 }

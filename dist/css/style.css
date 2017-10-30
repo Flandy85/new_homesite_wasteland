@@ -31,7 +31,8 @@ body, html {
   /* enable scroll for menu items */
   width: 500px;
   /* this width will hide scroll bar */
-  height: 95%; }
+  height: 95%;
+  z-index: 4; }
 
 .side-menu-wrapper > ul > li > a {
   /* links */
@@ -520,7 +521,8 @@ template {
   overflow: hidden;
   top: 0;
   position: fixed;
-  width: 100%; }
+  width: 100%;
+  z-index: 4; }
 
 .menu-container {
   display: flex;

@@ -197,9 +197,11 @@
 		margin: 5px;
 	}
 	a {
-		color: black;
+		color: #fff;
 		text-decoration: none;
 		font-weight: bold;
+		padding: 2px;
+		text-shadow: black 0.1em 0.1em 0.2em;
 	}
 	
 }

@@ -105,15 +105,19 @@ body, html {
     background-color: #fff; }
   .contact-section-background .link-container a {
     color: #DCDCDC; }
+  .contact-section-background .link-container a:hover {
+    color: #fad087; }
 
 .section-projects {
   background-color: rgba(255, 255, 255, 0.9); }
 
-/*.section-projects-text {
-	
-	color: #DCDCDC;
-	
-}*/
+.section-projects-text a {
+  background-color: #000000; }
+
+.section-projects-text a:hover {
+  background-color: #fff;
+  color: #000000; }
+
 #gallery p {
   /*background-color: rgba(255, 255, 255, 0.8);*/
   color: black; }
@@ -730,9 +734,11 @@ template {
     line-height: 30px;
     margin: 5px; }
   .section-projects-text a {
-    color: black;
+    color: #fff;
     text-decoration: none;
-    font-weight: bold; }
+    font-weight: bold;
+    padding: 2px;
+    text-shadow: black 0.1em 0.1em 0.2em; }
 
 .section-gallery {
   display: flex;
@@ -867,6 +873,8 @@ template {
     margin-bottom: 122px;
     width: 100%;
     max-width: 900px; }
+  .section-start h2 {
+    font-size: 30px; }
   .section-about-text {
     width: 60%; }
   .contact-section-background {
@@ -898,7 +906,15 @@ template {
     height: 250px;
     width: 50%; }
   #gallery {
-    width: 80%; } }
+    width: 80%; }
+  .drop-content {
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s, visibility 1s; }
+  .drop:hover .drop-content {
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 0.3s, visibility 1s; } }
 
 @media screen and (min-width: 1025px) and (max-width: 1500px) {
   /*************************
@@ -988,6 +1004,8 @@ template {
     height: 820px; }
     .section-start h1 {
       font-size: 50px; }
+    .section-start h2 {
+      font-size: 40px; }
   .main-logo {
     width: 100%;
     max-width: 900px; }
@@ -1018,6 +1036,7 @@ template {
     width: 100%;
     height: 440px; }
   .projects-images {
+    background-color: rgba(0, 0, 0, 0.9);
     width: 100%;
     max-width: 450px; }
   .drop-content {

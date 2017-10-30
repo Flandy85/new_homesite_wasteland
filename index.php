@@ -51,7 +51,7 @@
 		          <li>
 		          	<div class="drop">
 			            <a href="https://wastelandsolution.se/javascript/svg/" rel="noopener" target="blank">
-			              <img src="./assets/images/firewall-shield.png" alt="Image of a shield representing a infographic" class="projects-images">
+			              <img src="./assets/images/infographic.png" alt="Image of a shield representing a infographic" class="projects-images">
 			              <div class="drop-content">
 			              	<p>A infographic for promoting SSL cerificate made with greensock js and Javascript</p>
 			              </div>

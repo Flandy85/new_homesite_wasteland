@@ -113,6 +113,10 @@
 		font-size: 50px;
 	}
 
+	h2 {
+		font-size: 40px;
+	}
+
 }
 .main-logo {
 	width: 100%;
@@ -149,6 +153,7 @@
 		a {
 			font-size: 20px;
 		}
+
 	}
 }
 
@@ -160,8 +165,12 @@
 	height: 440px;
 }
 .projects-images {
+	background-color: rgba(0, 0, 0, 0.9);
 	width: 100%;
 	max-width: 450px;
+}
+.projects-images:hover {
+
 }
 
 .drop-content {

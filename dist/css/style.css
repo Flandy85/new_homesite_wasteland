@@ -88,8 +88,6 @@ body, html {
 
 .section-about {
   background-color: rgba(255, 255, 255, 0.8); }
-  .section-about .section-about-text {
-    /*background-color: rgba(255, 255, 255, 0.8);*/ }
   .section-about h2, .section-about p {
     color: black; }
 
@@ -120,7 +118,6 @@ body, html {
   color: #000000; }
 
 #gallery p {
-  /*background-color: rgba(255, 255, 255, 0.8);*/
   color: black; }
 
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
@@ -551,32 +548,14 @@ template {
   padding: 0;
   text-decoration: none; }
 
-/*.menu-start > a {
-	display: none;
-}
-.menu-about > a {
-	display: none;
-}
-.menu-contact > a {
-	display: none;
-}
-.menu-projects > a {
-	display: none;
-}
-.mobile-menu {
-	display: none;
-}*/
 /*************************************************
 			MAIN SCSS is mobile first
 *************************************************/
 /*First 2 section in body*/
 .section-main {
-  height: 100%;
-  /*overflow-y: scroll;
-  	scroll-behavior: smooth;*/ }
+  height: 100%; }
 
 .section-start {
-  /*background-image: url("http://img09.deviantart.net/67dd/i/2014/189/9/a/passion_wasteland_by_bunsl-d7psb3k.jpg");*/
   background-image: url("Store_StylizedWastelandRocks-mobile.png");
   background-size: cover;
   background-repeat: no-repeat;
@@ -645,7 +624,6 @@ template {
     max-width: 250px; }
 
 .section-about-text {
-  /*box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);*/
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -653,14 +631,9 @@ template {
   .section-about-text p {
     font-family: 'Roboto: 500', sans-serif;
     font-size: 20px;
-    /*font-weight: bold;*/
     padding: 10px;
     line-height: 40px;
-    margin: 5px;
-    /*margin-right: 15px;
-		margin-left: 15px;*/
-    /*text-shadow: 1px 1px 0px rgba(150, 150, 150, 1);*/
-    /*text-shadow: black 0.1em 0.1em 0.2em;*/ }
+    margin: 5px; }
   .section-about-text .angular-link {
     color: red;
     font-size: bold;
@@ -675,10 +648,8 @@ template {
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
-  /*flex-wrap: wrap;*/
   justify-content: center;
   align-items: center;
-  /*height: 400px;*/
   width: 100%; }
   .contact-section-background img {
     margin-top: 30px;
@@ -714,10 +685,6 @@ template {
 			PROJECTS SECTION
 *************************************************/
 .section-projects {
-  /*background-image: url("https://wastelandsolution.se/moutainwallpaper.jpg");
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-attachment: fixed;*/
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -726,21 +693,20 @@ template {
   width: 100%;
   height: 100%; }
 
-.section-projects-text {
-  /*background-color: rgba(50, 50, 50, 0.5);*/ }
-  .section-projects-text p {
-    font-family: 'Roboto: 500', sans-serif;
-    /*font-weight: bold;*/
-    font-size: 20px;
-    padding: 10px;
-    line-height: 30px;
-    margin: 5px; }
-  .section-projects-text a {
-    color: #fff;
-    text-decoration: none;
-    font-weight: bold;
-    padding: 2px;
-    text-shadow: black 0.1em 0.1em 0.2em; }
+.section-projects-text p {
+  font-family: 'Roboto: 500', sans-serif;
+  /*font-weight: bold;*/
+  font-size: 20px;
+  padding: 10px;
+  line-height: 30px;
+  margin: 5px; }
+
+.section-projects-text a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 2px;
+  text-shadow: black 0.1em 0.1em 0.2em; }
 
 .section-gallery {
   display: flex;
@@ -750,8 +716,7 @@ template {
   .section-gallery ul li {
     margin: 0;
     padding: 0;
-    list-style: none;
-    /*background-color: rgba(255, 255, 255, 0.8);*/ }
+    list-style: none; }
   .section-gallery a {
     text-decoration: none; }
   .section-gallery p {
@@ -788,7 +753,6 @@ template {
     /*height: 6vh;*/
     width: 100%; }
   .header-logo {
-    /*box-shadow: -4px 5px 40px 0px rgba(0,0,0,0.75);*/
     width: 100%;
     max-width: 300px; }
   /*Minimzing header*/
@@ -875,10 +839,16 @@ template {
     margin-bottom: 122px;
     width: 100%;
     max-width: 900px; }
+  /**************************
+		ABOUT
+**************************/
   .section-start h2 {
     font-size: 30px; }
   .section-about-text {
     width: 60%; }
+  /**************************
+		CONTACT
+**************************/
   .contact-section-background {
     background-image: url("moutain_opacity60_black.png");
     display: flex;
@@ -907,6 +877,9 @@ template {
     margin: 35px 0 30px 0;
     height: 250px;
     width: 50%; }
+  /**************************
+		PROJECTS
+**************************/
   #gallery {
     width: 80%; }
   .drop-content {

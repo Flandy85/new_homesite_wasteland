@@ -91,6 +91,18 @@
 		        	</div>
 		          </li>
 		        </ul>
+		        <ul>
+		        	<li>
+			          	<div class="drop">
+				            <a href="https://wastelandsolution.se/javascript/react/" target="_blank" rel="noopener">
+				              <img src="./assets/images/react.png" alt="Image of a schoolproject. Developted with react." class="projects-images">
+				              <div class="drop-content">
+				              	<p>One of my last JavaScript schoolprojects developted with React.js. Simple application fecthing photo from flicker with flickers api.</p>
+				          	  </div>
+				            </a>
+			        	</div>
+		          	</li>
+		        </ul>
 		    </section>
 		</div>	
 	</div>

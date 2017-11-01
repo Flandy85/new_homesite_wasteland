@@ -25,7 +25,6 @@
 
 		<!--Mobile meny-->
 		<div id="mainMenu" class="mobile-menu"></div>
-
 		<a href="#" class="slide-menu-open">Menu</a>
 		<div class="side-menu-overlay" style="width: 0px; opacity: 0;"></div>
 		<div class="side-menu-wrapper">

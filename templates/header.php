@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<meta charset="UTF-8">
     <meta name="description" content="Personal portfolio site">
@@ -11,6 +11,7 @@
 	<title>wastelandsolution</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,500" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="./dist/css/style.css">
+	<link rel="manifest" href="/manifest.json">
 </head>
 <body>
 <header class="header-container" id="header-container-js">
@@ -24,7 +25,7 @@
 		</div>
 
 		<!--Mobile meny-->
-		<div id="mainMenu" class="mobile-menu"></div>
+		<!-- <div id="mainMenu" class="mobile-menu"></div>
 		<a href="#" class="slide-menu-open">Menu</a>
 		<div class="side-menu-overlay" style="width: 0px; opacity: 0;"></div>
 		<div class="side-menu-wrapper">
@@ -35,6 +36,6 @@
 			    <li><a href="#Contact" rel="noopener" class="Contact" id="menu-contact">Contact</a></li>
 			    <li><a href="#Projects" rel="noopener" class="Projects" id="menu-projects">Projects</a></li>
 			</ul>
-		</div>
+		</div> -->
 	</nav>
 </header>

@@ -47,7 +47,7 @@
 				<p>Here is my <a href="https://github.com/Flandy85" rel="noopener" target="blank">Github account</a> for peeking at my repositories</p>
 			</div>
 			<section class="section-gallery">
-		        <ul id="gallery">
+		        <ul class="gallery">
 		          <li>
 		          	<div class="drop">
 			            <a href="https://wastelandsolution.se/javascript/svg/" rel="noopener" target="blank">
@@ -69,7 +69,7 @@
 		        	</div>
 		          </li>
 		        </ul>
-		        <ul id="gallery">
+		        <ul class="gallery">
 		          <li>
 		          	<div class="drop">
 			            <a href="https://wastelandsolution.se/javascript/quizz/" target="_blank" rel="noopener">

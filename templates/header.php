@@ -10,7 +10,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>wastelandsolution</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,500" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="./dist/css/style.css">
+	<link rel="stylesheet" media="all" type="text/css" href="./dist/css/style.css">
 	<link rel="manifest" href="/manifest.json">
 </head>
 <body>

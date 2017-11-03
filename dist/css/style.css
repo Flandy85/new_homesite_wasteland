@@ -737,7 +737,7 @@ template {
     width: 100%;
     max-width: 450px; }
 
-#gallery {
+.gallery {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;

@@ -1,7 +1,8 @@
 {
   "name": "wastelandsolution",
-  "short_name": "wastelandsolution",
+  "short_name": "wasteland",
   "start_url": ".",
   "background_color": "#fff",
+  "theme_color": "#d69b1d",
   "description": "A simple personal portfolio site."
 }
